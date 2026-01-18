@@ -1,0 +1,135 @@
+{
+  "content_type": {
+    "uid": "header",
+    "title": "Header",
+    "description": "Site header with logo, navigation links, and CTA button",
+    "schema": [
+      {
+        "uid": "title",
+        "display_name": "Title",
+        "data_type": "text",
+        "mandatory": true,
+        "unique": false,
+        "field_metadata": {
+          "instruction": "Internal title for this header configuration"
+        }
+      },
+      {
+        "uid": "logo",
+        "display_name": "Logo Image",
+        "data_type": "file",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Upload the site logo image (recommended: PNG or SVG, max height 60px)",
+          "rich_text_type": "standard"
+        }
+      },
+      {
+        "uid": "logo_text",
+        "display_name": "Logo Text",
+        "data_type": "text",
+        "mandatory": true,
+        "field_metadata": {
+          "default_value": "AutoStack",
+          "instruction": "Brand name displayed next to the logo (used as alt text if logo image is set)"
+        }
+      },
+      {
+        "uid": "logo_link",
+        "display_name": "Logo Link",
+        "data_type": "text",
+        "mandatory": true,
+        "field_metadata": {
+          "default_value": "/",
+          "instruction": "URL the logo links to (usually homepage)"
+        }
+      },
+      {
+        "uid": "navigation",
+        "display_name": "Navigation Links",
+        "data_type": "group",
+        "multiple": true,
+        "mandatory": true,
+        "field_metadata": {
+          "instruction": "Main navigation menu items"
+        },
+        "schema": [
+          {
+            "uid": "label",
+            "display_name": "Label",
+            "data_type": "text",
+            "mandatory": true,
+            "field_metadata": {
+              "instruction": "Display text for the navigation link"
+            }
+          },
+          {
+            "uid": "url",
+            "display_name": "URL",
+            "data_type": "text",
+            "mandatory": true,
+            "field_metadata": {
+              "instruction": "Link destination (e.g., /cars, /reviews)"
+            }
+          },
+          {
+            "uid": "is_highlighted",
+            "display_name": "Highlight Link",
+            "data_type": "boolean",
+            "mandatory": false,
+            "field_metadata": {
+              "default_value": false,
+              "instruction": "Make this link stand out visually"
+            }
+          },
+          {
+            "uid": "open_in_new_tab",
+            "display_name": "Open in New Tab",
+            "data_type": "boolean",
+            "mandatory": false,
+            "field_metadata": {
+              "default_value": false,
+              "instruction": "Open link in a new browser tab"
+            }
+          }
+        ]
+      },
+      {
+        "uid": "cta_label",
+        "display_name": "CTA Button Label",
+        "data_type": "text",
+        "mandatory": false,
+        "field_metadata": {
+          "default_value": "Sign In",
+          "instruction": "Text displayed on the CTA button"
+        }
+      },
+      {
+        "uid": "cta_url",
+        "display_name": "CTA Button URL",
+        "data_type": "text",
+        "mandatory": false,
+        "field_metadata": {
+          "default_value": "/auth/login",
+          "instruction": "Link destination when button is clicked"
+        }
+      },
+      {
+        "uid": "show_search",
+        "display_name": "Show Search Icon",
+        "data_type": "boolean",
+        "mandatory": false,
+        "field_metadata": {
+          "default_value": true,
+          "instruction": "Display search icon in the header"
+        }
+      }
+    ],
+    "options": {
+      "singleton": true,
+      "title": "title",
+      "publishable": true,
+      "is_page": false
+    }
+  }
+}

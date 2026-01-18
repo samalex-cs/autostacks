@@ -1,0 +1,48 @@
+{
+  "content_type": "header",
+  "locale": "en-us",
+  "entries": [
+    {
+      "title": "Main Header",
+      "logo": null,
+      "logo_text": "AutoStack",
+      "logo_link": "/",
+      "navigation": [
+        {
+          "label": "Home",
+          "url": "/",
+          "is_highlighted": false,
+          "open_in_new_tab": false
+        },
+        {
+          "label": "Used Cars",
+          "url": "/cars?type=used",
+          "is_highlighted": false,
+          "open_in_new_tab": false
+        },
+        {
+          "label": "New Cars",
+          "url": "/cars?type=new",
+          "is_highlighted": false,
+          "open_in_new_tab": false
+        },
+        {
+          "label": "Reviews",
+          "url": "/reviews",
+          "is_highlighted": false,
+          "open_in_new_tab": false
+        },
+        {
+          "label": "News",
+          "url": "/news",
+          "is_highlighted": false,
+          "open_in_new_tab": false
+        }
+      ],
+      "cta_label": "Sign In",
+      "cta_url": "/auth/login",
+      "show_search": true
+    }
+  ]
+}
+

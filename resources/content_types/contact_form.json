@@ -1,0 +1,26 @@
+{
+  "content_type": {
+    "uid": "contact_form",
+    "title": "Contact Form",
+    "schema": [
+      {
+        "uid": "name",
+        "data_type": "text",
+        "display_name": "Name"
+      },
+      {
+        "uid": "email",
+        "data_type": "text",
+        "display_name": "Email"
+      },
+      {
+        "uid": "message",
+        "data_type": "text",
+        "display_name": "Message"
+      }
+    ],
+    "options": {
+      "singleton": false
+    }
+  }
+}

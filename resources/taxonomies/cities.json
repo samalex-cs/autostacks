@@ -1,0 +1,167 @@
+{
+    "taxonomy": {
+      "uid": "indian_cities",
+      "name": "Indian Cities",
+      "description": "Tier-1 and Tier-2 cities in India for use in the car website.",
+      "locale": "en-us"
+    },
+    "terms": [
+      {
+        "uid": "india",
+        "name": "India",
+        "parent_uid": null,
+        "locale": "en-us"
+      },
+      {
+        "uid": "maharashtra",
+        "name": "Maharashtra",
+        "parent_uid": "india",
+        "locale": "en-us"
+      },
+      {
+        "uid": "mumbai",
+        "name": "Mumbai",
+        "parent_uid": "maharashtra",
+        "locale": "en-us"
+      },
+      {
+        "uid": "pune",
+        "name": "Pune",
+        "parent_uid": "maharashtra",
+        "locale": "en-us"
+      },
+      {
+        "uid": "nagpur",
+        "name": "Nagpur",
+        "parent_uid": "maharashtra",
+        "locale": "en-us"
+      },
+      {
+        "uid": "nashik",
+        "name": "Nashik",
+        "parent_uid": "maharashtra",
+        "locale": "en-us"
+      },
+      {
+        "uid": "tamil_nadu",
+        "name": "Tamil Nadu",
+        "parent_uid": "india",
+        "locale": "en-us"
+      },
+      {
+        "uid": "chennai",
+        "name": "Chennai",
+        "parent_uid": "tamil_nadu",
+        "locale": "en-us"
+      },
+      {
+        "uid": "coimbatore",
+        "name": "Coimbatore",
+        "parent_uid": "tamil_nadu",
+        "locale": "en-us"
+      },
+      {
+        "uid": "madurai",
+        "name": "Madurai",
+        "parent_uid": "tamil_nadu",
+        "locale": "en-us"
+      },
+      {
+        "uid": "karnataka",
+        "name": "Karnataka",
+        "parent_uid": "india",
+        "locale": "en-us"
+      },
+      {
+        "uid": "bangalore",
+        "name": "Bengaluru",
+        "parent_uid": "karnataka",
+        "locale": "en-us"
+      },
+      {
+        "uid": "mysore",
+        "name": "Mysuru",
+        "parent_uid": "karnataka",
+        "locale": "en-us"
+      },
+      {
+        "uid": "mangalore",
+        "name": "Mangaluru",
+        "parent_uid": "karnataka",
+        "locale": "en-us"
+      },
+      {
+        "uid": "hyderabad",
+        "name": "Hyderabad",
+        "parent_uid": "india",
+        "locale": "en-us"
+      },
+      {
+        "uid": "telangana",
+        "name": "Telangana",
+        "parent_uid": "india",
+        "locale": "en-us"
+      },
+      {
+        "uid": "warangal",
+        "name": "Warangal",
+        "parent_uid": "telangana",
+        "locale": "en-us"
+      },
+      {
+        "uid": "delhi_ut",
+        "name": "Delhi (UT)",
+        "parent_uid": "india",
+        "locale": "en-us"
+      },
+      {
+        "uid": "new_delhi",
+        "name": "New Delhi",
+        "parent_uid": "delhi_ut",
+        "locale": "en-us"
+      },
+      {
+        "uid": "noida",
+        "name": "Noida",
+        "parent_uid": "delhi_ut",
+        "locale": "en-us"
+      },
+      {
+        "uid": "lucknow",
+        "name": "Lucknow",
+        "parent_uid": "india",
+        "locale": "en-us"
+      },
+      {
+        "uid": "kanpur",
+        "name": "Kanpur",
+        "parent_uid": "india",
+        "locale": "en-us"
+      },
+      {
+        "uid": "jaipur",
+        "name": "Jaipur",
+        "parent_uid": "india",
+        "locale": "en-us"
+      },
+      {
+        "uid": "udaipur",
+        "name": "Udaipur",
+        "parent_uid": "india",
+        "locale": "en-us"
+      },
+      {
+        "uid": "surat",
+        "name": "Surat",
+        "parent_uid": "india",
+        "locale": "en-us"
+      },
+      {
+        "uid": "ahmedabad",
+        "name": "Ahmedabad",
+        "parent_uid": "india",
+        "locale": "en-us"
+      }
+    ]
+  }
+  

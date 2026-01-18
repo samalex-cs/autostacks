@@ -1,0 +1,60 @@
+{
+  "content_type": "footer",
+  "locale": "en-us",
+  "entries": [
+    {
+      "title": "Main Footer",
+      "logo": null,
+      "brand_name": "AutoStack",
+      "tagline": "Your trusted destination for finding the perfect car. Browse thousands of new and used vehicles from verified dealers.",
+      "contact_email": "contact@autostack.com",
+      "contact_phone": "+91 98765 43210",
+      "contact_address": "123 Auto Street, Mumbai, Maharashtra 400001",
+      "link_sections": [
+        {
+          "section_title": "Cars",
+          "links": [
+            { "label": "New Cars", "url": "/cars?type=new" },
+            { "label": "Used Cars", "url": "/cars?type=used" },
+            { "label": "Compare Cars", "url": "/compare" },
+            { "label": "Car Reviews", "url": "/reviews" }
+          ]
+        },
+        {
+          "section_title": "Company",
+          "links": [
+            { "label": "About Us", "url": "/about" },
+            { "label": "Careers", "url": "/careers" },
+            { "label": "Press", "url": "/press" },
+            { "label": "Blog", "url": "/blog" }
+          ]
+        },
+        {
+          "section_title": "Support",
+          "links": [
+            { "label": "Help Center", "url": "/help" },
+            { "label": "Contact Us", "url": "/contact" },
+            { "label": "FAQs", "url": "/faqs" },
+            { "label": "Feedback", "url": "/feedback" }
+          ]
+        },
+        {
+          "section_title": "Legal",
+          "links": [
+            { "label": "Privacy Policy", "url": "/privacy" },
+            { "label": "Terms of Service", "url": "/terms" },
+            { "label": "Cookie Policy", "url": "/cookies" }
+          ]
+        }
+      ],
+      "social_links": [
+        { "platform": "facebook", "url": "https://facebook.com/autostack" },
+        { "platform": "twitter", "url": "https://twitter.com/autostack" },
+        { "platform": "instagram", "url": "https://instagram.com/autostack" },
+        { "platform": "linkedin", "url": "https://linkedin.com/company/autostack" }
+      ],
+      "copyright_text": "All rights reserved."
+    }
+  ]
+}
+

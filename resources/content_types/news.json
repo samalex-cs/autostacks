@@ -1,0 +1,161 @@
+{
+  "content_type": {
+    "uid": "news",
+    "title": "News",
+    "description": "Automotive news articles for the AutoStack platform",
+    "schema": [
+      {
+        "uid": "title",
+        "display_name": "Title",
+        "data_type": "text",
+        "mandatory": true,
+        "unique": true,
+        "field_metadata": {
+          "instruction": "News headline"
+        }
+      },
+      {
+        "uid": "slug",
+        "display_name": "URL Slug",
+        "data_type": "text",
+        "mandatory": true,
+        "unique": true,
+        "field_metadata": {
+          "instruction": "URL-friendly identifier"
+        }
+      },
+      {
+        "uid": "category",
+        "display_name": "Category",
+        "data_type": "text",
+        "mandatory": true,
+        "enum": {
+          "advanced": false,
+          "choices": [
+            { "value": "Launch" },
+            { "value": "Upcoming" },
+            { "value": "Electric" },
+            { "value": "Industry" },
+            { "value": "Technology" },
+            { "value": "Policy" },
+            { "value": "Motorsport" }
+          ]
+        },
+        "display_type": "dropdown"
+      },
+      {
+        "uid": "author_name",
+        "display_name": "Author Name",
+        "data_type": "text",
+        "mandatory": true
+      },
+      {
+        "uid": "publish_date",
+        "display_name": "Publish Date",
+        "data_type": "isodate",
+        "mandatory": true
+      },
+      {
+        "uid": "excerpt",
+        "display_name": "Excerpt",
+        "data_type": "text",
+        "mandatory": true,
+        "multiline": true,
+        "field_metadata": {
+          "instruction": "Short summary for listing pages (150-200 characters)"
+        }
+      },
+      {
+        "uid": "content",
+        "display_name": "Content",
+        "data_type": "text",
+        "mandatory": true,
+        "multiline": true,
+        "field_metadata": {
+          "instruction": "Full news article content"
+        }
+      },
+      {
+        "uid": "thumbnail",
+        "display_name": "Thumbnail Image",
+        "data_type": "file",
+        "mandatory": false
+      },
+      {
+        "uid": "images",
+        "display_name": "Gallery Images",
+        "data_type": "file",
+        "multiple": true,
+        "mandatory": false
+      },
+      {
+        "uid": "related_brand",
+        "display_name": "Related Brand",
+        "data_type": "text",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Primary car brand related to this news"
+        }
+      },
+      {
+        "uid": "related_model",
+        "display_name": "Related Model",
+        "data_type": "text",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Specific car model if applicable"
+        }
+      },
+      {
+        "uid": "read_time",
+        "display_name": "Read Time (minutes)",
+        "data_type": "number",
+        "mandatory": false
+      },
+      {
+        "uid": "is_featured",
+        "display_name": "Is Featured?",
+        "data_type": "boolean",
+        "mandatory": false,
+        "default_value": false
+      },
+      {
+        "uid": "is_breaking",
+        "display_name": "Breaking News?",
+        "data_type": "boolean",
+        "mandatory": false,
+        "default_value": false
+      },
+      {
+        "uid": "source_name",
+        "display_name": "Source Name",
+        "data_type": "text",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Original source if republished"
+        }
+      },
+      {
+        "uid": "source_url",
+        "display_name": "Source URL",
+        "data_type": "text",
+        "mandatory": false
+      },
+      {
+        "uid": "news_tags",
+        "display_name": "Tags",
+        "data_type": "text",
+        "multiple": true,
+        "mandatory": false
+      }
+    ],
+    "options": {
+      "singleton": false,
+      "title": "title",
+      "publishable": true,
+      "is_page": false
+    }
+  }
+}
+
+

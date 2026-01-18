@@ -1,0 +1,40 @@
+{
+  "content_type": {
+    "uid": "dealer_inventory",
+    "title": "Dealer Inventory",
+    "schema": [
+      {
+        "uid": "dealer",
+        "data_type": "reference",
+        "display_name": "Dealer",
+        "reference_to": [
+          "dealer"
+        ]
+      },
+      {
+        "uid": "model",
+        "data_type": "reference",
+        "display_name": "Model",
+        "reference_to": [
+          "taxonomy_terms"
+        ]
+      },
+      {
+        "uid": "variant",
+        "data_type": "reference",
+        "display_name": "Variant",
+        "reference_to": [
+          "taxonomy_terms"
+        ]
+      },
+      {
+        "uid": "stock_status",
+        "data_type": "text",
+        "display_name": "Stock Status"
+      }
+    ],
+    "options": {
+      "singleton": false
+    }
+  }
+}

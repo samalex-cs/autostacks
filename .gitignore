@@ -1,0 +1,188 @@
+# ============================================
+# AutoStack - Combined .gitignore
+# Frontend (Next.js) + Backend (Spring Boot)
+# ============================================
+
+# ============================================
+# FRONTEND (Next.js / Node.js)
+# ============================================
+
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+
+# Next.js
+*.tsbuildinfo
+next-env.d.ts
+
+# npm/yarn/pnpm debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Testing (JS)
+coverage/
+.nyc_output/
+
+# Vercel
+.vercel/
+
+# Turbo
+.turbo/
+
+# PWA
+**/public/sw.js
+**/public/workbox-*.js
+
+# Storybook
+storybook-static/
+
+# ============================================
+# BACKEND (Java / Spring Boot / Maven)
+# ============================================
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Gradle (if used)
+.gradle/
+**/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Compiled Java class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# Spring Boot
+*.pid
+
+# ============================================
+# SENSITIVE FILES (NEVER COMMIT!)
+# ============================================
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Firebase Service Account Key
+serviceAccountKey.json
+**/serviceAccountKey.json
+
+# API Keys / Secrets
+*.pem
+*.key
+secrets/
+credentials/
+
+# ============================================
+# IDE & EDITORS
+# ============================================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Vim/Neovim
+*.swp
+*.swo
+*~
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# ============================================
+# OS GENERATED FILES
+# ============================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ============================================
+# LOGS & CACHE
+# ============================================
+
+# Logs
+logs/
+*.log
+
+# Cache
+.cache/
+.eslintcache
+.stylelintcache
+
+# ============================================
+# ARCHIVES
+# ============================================
+
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ============================================
+# DEPLOYMENT
+# ============================================
+
+# Contentstack Launch
+.contentstack/
+
+# Docker (local overrides)
+docker-compose.override.yml
+
+# ============================================
+# MISC
+# ============================================
+
+# Local scripts output
+tmp/
+temp/
+

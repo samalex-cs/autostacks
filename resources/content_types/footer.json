@@ -1,0 +1,159 @@
+{
+  "content_type": {
+    "uid": "footer",
+    "title": "Footer",
+    "description": "Site footer with brand info, navigation links, contact details, and social links",
+    "schema": [
+      {
+        "uid": "title",
+        "display_name": "Title",
+        "data_type": "text",
+        "mandatory": true,
+        "unique": false,
+        "field_metadata": {
+          "instruction": "Internal title for this footer configuration"
+        }
+      },
+      {
+        "uid": "logo",
+        "display_name": "Logo Image",
+        "data_type": "file",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Footer logo image (optional, uses header logo if not set)"
+        }
+      },
+      {
+        "uid": "brand_name",
+        "display_name": "Brand Name",
+        "data_type": "text",
+        "mandatory": true,
+        "field_metadata": {
+          "default_value": "AutoStack",
+          "instruction": "Company/brand name displayed in footer"
+        }
+      },
+      {
+        "uid": "tagline",
+        "display_name": "Tagline",
+        "data_type": "text",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Short description or tagline about the company"
+        }
+      },
+      {
+        "uid": "contact_email",
+        "display_name": "Contact Email",
+        "data_type": "text",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Contact email address"
+        }
+      },
+      {
+        "uid": "contact_phone",
+        "display_name": "Contact Phone",
+        "data_type": "text",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Contact phone number"
+        }
+      },
+      {
+        "uid": "contact_address",
+        "display_name": "Contact Address",
+        "data_type": "text",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Physical address"
+        }
+      },
+      {
+        "uid": "link_sections",
+        "display_name": "Link Sections",
+        "data_type": "group",
+        "multiple": true,
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Footer navigation sections (e.g., Cars, Company, Support, Legal)"
+        },
+        "schema": [
+          {
+            "uid": "section_title",
+            "display_name": "Section Title",
+            "data_type": "text",
+            "mandatory": true,
+            "field_metadata": {
+              "instruction": "Title for this link section"
+            }
+          },
+          {
+            "uid": "links",
+            "display_name": "Links",
+            "data_type": "group",
+            "multiple": true,
+            "mandatory": false,
+            "schema": [
+              {
+                "uid": "label",
+                "display_name": "Label",
+                "data_type": "text",
+                "mandatory": true
+              },
+              {
+                "uid": "url",
+                "display_name": "URL",
+                "data_type": "text",
+                "mandatory": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uid": "social_links",
+        "display_name": "Social Links",
+        "data_type": "group",
+        "multiple": true,
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Social media profile links"
+        },
+        "schema": [
+          {
+            "uid": "platform",
+            "display_name": "Platform",
+            "data_type": "text",
+            "mandatory": true,
+            "field_metadata": {
+              "instruction": "Social platform name (facebook, twitter, instagram, linkedin, youtube)"
+            }
+          },
+          {
+            "uid": "url",
+            "display_name": "URL",
+            "data_type": "text",
+            "mandatory": true
+          }
+        ]
+      },
+      {
+        "uid": "copyright_text",
+        "display_name": "Copyright Text",
+        "data_type": "text",
+        "mandatory": false,
+        "field_metadata": {
+          "default_value": "All rights reserved.",
+          "instruction": "Copyright notice (year will be auto-added)"
+        }
+      }
+    ],
+    "options": {
+      "singleton": true,
+      "title": "title",
+      "publishable": true,
+      "is_page": false
+    }
+  }
+}

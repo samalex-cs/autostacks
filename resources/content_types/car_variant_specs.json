@@ -1,0 +1,39 @@
+{
+  "content_type": {
+    "uid": "car_variant_specs",
+    "title": "Car Variant Specs",
+    "schema": [
+      {
+        "uid": "variant_taxonomy",
+        "data_type": "reference",
+        "display_name": "Variant Taxonomy",
+        "reference_to": [
+          "taxonomy_terms"
+        ]
+      },
+      {
+        "uid": "engine",
+        "data_type": "text",
+        "display_name": "Engine"
+      },
+      {
+        "uid": "transmission",
+        "data_type": "text",
+        "display_name": "Transmission"
+      },
+      {
+        "uid": "mileage",
+        "data_type": "number",
+        "display_name": "Mileage"
+      },
+      {
+        "uid": "power",
+        "data_type": "number",
+        "display_name": "Power"
+      }
+    ],
+    "options": {
+      "singleton": false
+    }
+  }
+}

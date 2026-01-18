@@ -1,0 +1,32 @@
+{
+  "content_type": {
+    "uid": "test_drive",
+    "title": "Test Drive",
+    "schema": [
+      {
+        "uid": "user_name",
+        "data_type": "text",
+        "display_name": "User Name"
+      },
+      {
+        "uid": "dealer",
+        "data_type": "reference",
+        "display_name": "Dealer",
+        "reference_to": [
+          "dealer"
+        ]
+      },
+      {
+        "uid": "model",
+        "data_type": "reference",
+        "display_name": "Model",
+        "reference_to": [
+          "taxonomy_terms"
+        ]
+      }
+    ],
+    "options": {
+      "singleton": false
+    }
+  }
+}

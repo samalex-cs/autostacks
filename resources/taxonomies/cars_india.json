@@ -1,0 +1,1624 @@
+{
+  "taxonomy": {
+    "uid": "cars_india",
+    "name": "Cars in India",
+    "description": "Simplified India car taxonomy with makes, models, and simplified variants.",
+    "locale": "en-us"
+  },
+  "terms": [
+    {
+      "uid": "maruti_suzuki",
+      "name": "Maruti Suzuki",
+      "parent_uid": null,
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_swift",
+      "name": "Swift",
+      "parent_uid": "maruti_suzuki",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_swift_petrol",
+      "name": "Petrol",
+      "parent_uid": "maruti_suzuki_swift",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_swift_diesel",
+      "name": "Diesel",
+      "parent_uid": "maruti_suzuki_swift",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_swift_cng",
+      "name": "CNG",
+      "parent_uid": "maruti_suzuki_swift",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_swift_electric",
+      "name": "Electric",
+      "parent_uid": "maruti_suzuki_swift",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_swift_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "maruti_suzuki_swift",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_swift_manual",
+      "name": "Manual",
+      "parent_uid": "maruti_suzuki_swift",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_swift_automatic",
+      "name": "Automatic",
+      "parent_uid": "maruti_suzuki_swift",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_baleno",
+      "name": "Baleno",
+      "parent_uid": "maruti_suzuki",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_baleno_petrol",
+      "name": "Petrol",
+      "parent_uid": "maruti_suzuki_baleno",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_baleno_diesel",
+      "name": "Diesel",
+      "parent_uid": "maruti_suzuki_baleno",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_baleno_cng",
+      "name": "CNG",
+      "parent_uid": "maruti_suzuki_baleno",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_baleno_electric",
+      "name": "Electric",
+      "parent_uid": "maruti_suzuki_baleno",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_baleno_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "maruti_suzuki_baleno",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_baleno_manual",
+      "name": "Manual",
+      "parent_uid": "maruti_suzuki_baleno",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_baleno_automatic",
+      "name": "Automatic",
+      "parent_uid": "maruti_suzuki_baleno",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_brezza",
+      "name": "Brezza",
+      "parent_uid": "maruti_suzuki",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_brezza_petrol",
+      "name": "Petrol",
+      "parent_uid": "maruti_suzuki_brezza",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_brezza_diesel",
+      "name": "Diesel",
+      "parent_uid": "maruti_suzuki_brezza",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_brezza_cng",
+      "name": "CNG",
+      "parent_uid": "maruti_suzuki_brezza",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_brezza_electric",
+      "name": "Electric",
+      "parent_uid": "maruti_suzuki_brezza",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_brezza_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "maruti_suzuki_brezza",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_brezza_manual",
+      "name": "Manual",
+      "parent_uid": "maruti_suzuki_brezza",
+      "locale": "en-us"
+    },
+    {
+      "uid": "maruti_suzuki_brezza_automatic",
+      "name": "Automatic",
+      "parent_uid": "maruti_suzuki_brezza",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai",
+      "name": "Hyundai",
+      "parent_uid": null,
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_i20",
+      "name": "i20",
+      "parent_uid": "hyundai",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_i20_petrol",
+      "name": "Petrol",
+      "parent_uid": "hyundai_i20",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_i20_diesel",
+      "name": "Diesel",
+      "parent_uid": "hyundai_i20",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_i20_cng",
+      "name": "CNG",
+      "parent_uid": "hyundai_i20",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_i20_electric",
+      "name": "Electric",
+      "parent_uid": "hyundai_i20",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_i20_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "hyundai_i20",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_i20_manual",
+      "name": "Manual",
+      "parent_uid": "hyundai_i20",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_i20_automatic",
+      "name": "Automatic",
+      "parent_uid": "hyundai_i20",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_creta",
+      "name": "Creta",
+      "parent_uid": "hyundai",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_creta_petrol",
+      "name": "Petrol",
+      "parent_uid": "hyundai_creta",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_creta_diesel",
+      "name": "Diesel",
+      "parent_uid": "hyundai_creta",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_creta_cng",
+      "name": "CNG",
+      "parent_uid": "hyundai_creta",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_creta_electric",
+      "name": "Electric",
+      "parent_uid": "hyundai_creta",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_creta_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "hyundai_creta",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_creta_manual",
+      "name": "Manual",
+      "parent_uid": "hyundai_creta",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_creta_automatic",
+      "name": "Automatic",
+      "parent_uid": "hyundai_creta",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_venue",
+      "name": "Venue",
+      "parent_uid": "hyundai",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_venue_petrol",
+      "name": "Petrol",
+      "parent_uid": "hyundai_venue",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_venue_diesel",
+      "name": "Diesel",
+      "parent_uid": "hyundai_venue",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_venue_cng",
+      "name": "CNG",
+      "parent_uid": "hyundai_venue",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_venue_electric",
+      "name": "Electric",
+      "parent_uid": "hyundai_venue",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_venue_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "hyundai_venue",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_venue_manual",
+      "name": "Manual",
+      "parent_uid": "hyundai_venue",
+      "locale": "en-us"
+    },
+    {
+      "uid": "hyundai_venue_automatic",
+      "name": "Automatic",
+      "parent_uid": "hyundai_venue",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata",
+      "name": "Tata",
+      "parent_uid": null,
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_nexon",
+      "name": "Nexon",
+      "parent_uid": "tata",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_nexon_petrol",
+      "name": "Petrol",
+      "parent_uid": "tata_nexon",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_nexon_diesel",
+      "name": "Diesel",
+      "parent_uid": "tata_nexon",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_nexon_cng",
+      "name": "CNG",
+      "parent_uid": "tata_nexon",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_nexon_electric",
+      "name": "Electric",
+      "parent_uid": "tata_nexon",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_nexon_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "tata_nexon",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_nexon_manual",
+      "name": "Manual",
+      "parent_uid": "tata_nexon",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_nexon_automatic",
+      "name": "Automatic",
+      "parent_uid": "tata_nexon",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_punch",
+      "name": "Punch",
+      "parent_uid": "tata",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_punch_petrol",
+      "name": "Petrol",
+      "parent_uid": "tata_punch",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_punch_diesel",
+      "name": "Diesel",
+      "parent_uid": "tata_punch",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_punch_cng",
+      "name": "CNG",
+      "parent_uid": "tata_punch",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_punch_electric",
+      "name": "Electric",
+      "parent_uid": "tata_punch",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_punch_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "tata_punch",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_punch_manual",
+      "name": "Manual",
+      "parent_uid": "tata_punch",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_punch_automatic",
+      "name": "Automatic",
+      "parent_uid": "tata_punch",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_harrier",
+      "name": "Harrier",
+      "parent_uid": "tata",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_harrier_petrol",
+      "name": "Petrol",
+      "parent_uid": "tata_harrier",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_harrier_diesel",
+      "name": "Diesel",
+      "parent_uid": "tata_harrier",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_harrier_cng",
+      "name": "CNG",
+      "parent_uid": "tata_harrier",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_harrier_electric",
+      "name": "Electric",
+      "parent_uid": "tata_harrier",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_harrier_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "tata_harrier",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_harrier_manual",
+      "name": "Manual",
+      "parent_uid": "tata_harrier",
+      "locale": "en-us"
+    },
+    {
+      "uid": "tata_harrier_automatic",
+      "name": "Automatic",
+      "parent_uid": "tata_harrier",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra",
+      "name": "Mahindra",
+      "parent_uid": null,
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_thar",
+      "name": "Thar",
+      "parent_uid": "mahindra",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_thar_petrol",
+      "name": "Petrol",
+      "parent_uid": "mahindra_thar",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_thar_diesel",
+      "name": "Diesel",
+      "parent_uid": "mahindra_thar",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_thar_cng",
+      "name": "CNG",
+      "parent_uid": "mahindra_thar",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_thar_electric",
+      "name": "Electric",
+      "parent_uid": "mahindra_thar",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_thar_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "mahindra_thar",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_thar_manual",
+      "name": "Manual",
+      "parent_uid": "mahindra_thar",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_thar_automatic",
+      "name": "Automatic",
+      "parent_uid": "mahindra_thar",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_xuv700",
+      "name": "XUV700",
+      "parent_uid": "mahindra",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_xuv700_petrol",
+      "name": "Petrol",
+      "parent_uid": "mahindra_xuv700",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_xuv700_diesel",
+      "name": "Diesel",
+      "parent_uid": "mahindra_xuv700",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_xuv700_cng",
+      "name": "CNG",
+      "parent_uid": "mahindra_xuv700",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_xuv700_electric",
+      "name": "Electric",
+      "parent_uid": "mahindra_xuv700",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_xuv700_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "mahindra_xuv700",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_xuv700_manual",
+      "name": "Manual",
+      "parent_uid": "mahindra_xuv700",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_xuv700_automatic",
+      "name": "Automatic",
+      "parent_uid": "mahindra_xuv700",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_scorpio",
+      "name": "Scorpio",
+      "parent_uid": "mahindra",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_scorpio_petrol",
+      "name": "Petrol",
+      "parent_uid": "mahindra_scorpio",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_scorpio_diesel",
+      "name": "Diesel",
+      "parent_uid": "mahindra_scorpio",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_scorpio_cng",
+      "name": "CNG",
+      "parent_uid": "mahindra_scorpio",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_scorpio_electric",
+      "name": "Electric",
+      "parent_uid": "mahindra_scorpio",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_scorpio_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "mahindra_scorpio",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_scorpio_manual",
+      "name": "Manual",
+      "parent_uid": "mahindra_scorpio",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mahindra_scorpio_automatic",
+      "name": "Automatic",
+      "parent_uid": "mahindra_scorpio",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia",
+      "name": "Kia",
+      "parent_uid": null,
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_seltos",
+      "name": "Seltos",
+      "parent_uid": "kia",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_seltos_petrol",
+      "name": "Petrol",
+      "parent_uid": "kia_seltos",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_seltos_diesel",
+      "name": "Diesel",
+      "parent_uid": "kia_seltos",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_seltos_cng",
+      "name": "CNG",
+      "parent_uid": "kia_seltos",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_seltos_electric",
+      "name": "Electric",
+      "parent_uid": "kia_seltos",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_seltos_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "kia_seltos",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_seltos_manual",
+      "name": "Manual",
+      "parent_uid": "kia_seltos",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_seltos_automatic",
+      "name": "Automatic",
+      "parent_uid": "kia_seltos",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_sonet",
+      "name": "Sonet",
+      "parent_uid": "kia",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_sonet_petrol",
+      "name": "Petrol",
+      "parent_uid": "kia_sonet",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_sonet_diesel",
+      "name": "Diesel",
+      "parent_uid": "kia_sonet",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_sonet_cng",
+      "name": "CNG",
+      "parent_uid": "kia_sonet",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_sonet_electric",
+      "name": "Electric",
+      "parent_uid": "kia_sonet",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_sonet_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "kia_sonet",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_sonet_manual",
+      "name": "Manual",
+      "parent_uid": "kia_sonet",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_sonet_automatic",
+      "name": "Automatic",
+      "parent_uid": "kia_sonet",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_carens",
+      "name": "Carens",
+      "parent_uid": "kia",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_carens_petrol",
+      "name": "Petrol",
+      "parent_uid": "kia_carens",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_carens_diesel",
+      "name": "Diesel",
+      "parent_uid": "kia_carens",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_carens_cng",
+      "name": "CNG",
+      "parent_uid": "kia_carens",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_carens_electric",
+      "name": "Electric",
+      "parent_uid": "kia_carens",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_carens_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "kia_carens",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_carens_manual",
+      "name": "Manual",
+      "parent_uid": "kia_carens",
+      "locale": "en-us"
+    },
+    {
+      "uid": "kia_carens_automatic",
+      "name": "Automatic",
+      "parent_uid": "kia_carens",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota",
+      "name": "Toyota",
+      "parent_uid": null,
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_innova_hycross",
+      "name": "Innova Hycross",
+      "parent_uid": "toyota",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_innova_hycross_petrol",
+      "name": "Petrol",
+      "parent_uid": "toyota_innova_hycross",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_innova_hycross_diesel",
+      "name": "Diesel",
+      "parent_uid": "toyota_innova_hycross",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_innova_hycross_cng",
+      "name": "CNG",
+      "parent_uid": "toyota_innova_hycross",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_innova_hycross_electric",
+      "name": "Electric",
+      "parent_uid": "toyota_innova_hycross",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_innova_hycross_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "toyota_innova_hycross",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_innova_hycross_manual",
+      "name": "Manual",
+      "parent_uid": "toyota_innova_hycross",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_innova_hycross_automatic",
+      "name": "Automatic",
+      "parent_uid": "toyota_innova_hycross",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_fortuner",
+      "name": "Fortuner",
+      "parent_uid": "toyota",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_fortuner_petrol",
+      "name": "Petrol",
+      "parent_uid": "toyota_fortuner",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_fortuner_diesel",
+      "name": "Diesel",
+      "parent_uid": "toyota_fortuner",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_fortuner_cng",
+      "name": "CNG",
+      "parent_uid": "toyota_fortuner",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_fortuner_electric",
+      "name": "Electric",
+      "parent_uid": "toyota_fortuner",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_fortuner_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "toyota_fortuner",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_fortuner_manual",
+      "name": "Manual",
+      "parent_uid": "toyota_fortuner",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_fortuner_automatic",
+      "name": "Automatic",
+      "parent_uid": "toyota_fortuner",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_glanza",
+      "name": "Glanza",
+      "parent_uid": "toyota",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_glanza_petrol",
+      "name": "Petrol",
+      "parent_uid": "toyota_glanza",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_glanza_diesel",
+      "name": "Diesel",
+      "parent_uid": "toyota_glanza",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_glanza_cng",
+      "name": "CNG",
+      "parent_uid": "toyota_glanza",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_glanza_electric",
+      "name": "Electric",
+      "parent_uid": "toyota_glanza",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_glanza_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "toyota_glanza",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_glanza_manual",
+      "name": "Manual",
+      "parent_uid": "toyota_glanza",
+      "locale": "en-us"
+    },
+    {
+      "uid": "toyota_glanza_automatic",
+      "name": "Automatic",
+      "parent_uid": "toyota_glanza",
+      "locale": "en-us"
+    },
+    {
+      "uid": "honda",
+      "name": "Honda",
+      "parent_uid": null,
+      "locale": "en-us"
+    },
+    {
+      "uid": "honda_city",
+      "name": "City",
+      "parent_uid": "honda",
+      "locale": "en-us"
+    },
+    {
+      "uid": "honda_city_petrol",
+      "name": "Petrol",
+      "parent_uid": "honda_city",
+      "locale": "en-us"
+    },
+    {
+      "uid": "honda_city_diesel",
+      "name": "Diesel",
+      "parent_uid": "honda_city",
+      "locale": "en-us"
+    },
+    {
+      "uid": "honda_city_cng",
+      "name": "CNG",
+      "parent_uid": "honda_city",
+      "locale": "en-us"
+    },
+    {
+      "uid": "honda_city_electric",
+      "name": "Electric",
+      "parent_uid": "honda_city",
+      "locale": "en-us"
+    },
+    {
+      "uid": "honda_city_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "honda_city",
+      "locale": "en-us"
+    },
+    {
+      "uid": "honda_city_manual",
+      "name": "Manual",
+      "parent_uid": "honda_city",
+      "locale": "en-us"
+    },
+    {
+      "uid": "honda_city_automatic",
+      "name": "Automatic",
+      "parent_uid": "honda_city",
+      "locale": "en-us"
+    },
+    {
+      "uid": "honda_amaze",
+      "name": "Amaze",
+      "parent_uid": "honda",
+      "locale": "en-us"
+    },
+    {
+      "uid": "honda_amaze_petrol",
+      "name": "Petrol",
+      "parent_uid": "honda_amaze",
+      "locale": "en-us"
+    },
+    {
+      "uid": "honda_amaze_diesel",
+      "name": "Diesel",
+      "parent_uid": "honda_amaze",
+      "locale": "en-us"
+    },
+    {
+      "uid": "honda_amaze_cng",
+      "name": "CNG",
+      "parent_uid": "honda_amaze",
+      "locale": "en-us"
+    },
+    {
+      "uid": "honda_amaze_electric",
+      "name": "Electric",
+      "parent_uid": "honda_amaze",
+      "locale": "en-us"
+    },
+    {
+      "uid": "honda_amaze_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "honda_amaze",
+      "locale": "en-us"
+    },
+    {
+      "uid": "honda_amaze_manual",
+      "name": "Manual",
+      "parent_uid": "honda_amaze",
+      "locale": "en-us"
+    },
+    {
+      "uid": "honda_amaze_automatic",
+      "name": "Automatic",
+      "parent_uid": "honda_amaze",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mg",
+      "name": "Mg",
+      "parent_uid": null,
+      "locale": "en-us"
+    },
+    {
+      "uid": "mg_hector",
+      "name": "Hector",
+      "parent_uid": "mg",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mg_hector_petrol",
+      "name": "Petrol",
+      "parent_uid": "mg_hector",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mg_hector_diesel",
+      "name": "Diesel",
+      "parent_uid": "mg_hector",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mg_hector_cng",
+      "name": "CNG",
+      "parent_uid": "mg_hector",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mg_hector_electric",
+      "name": "Electric",
+      "parent_uid": "mg_hector",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mg_hector_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "mg_hector",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mg_hector_manual",
+      "name": "Manual",
+      "parent_uid": "mg_hector",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mg_hector_automatic",
+      "name": "Automatic",
+      "parent_uid": "mg_hector",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mg_zs_ev",
+      "name": "ZS EV",
+      "parent_uid": "mg",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mg_zs_ev_petrol",
+      "name": "Petrol",
+      "parent_uid": "mg_zs_ev",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mg_zs_ev_diesel",
+      "name": "Diesel",
+      "parent_uid": "mg_zs_ev",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mg_zs_ev_cng",
+      "name": "CNG",
+      "parent_uid": "mg_zs_ev",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mg_zs_ev_electric",
+      "name": "Electric",
+      "parent_uid": "mg_zs_ev",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mg_zs_ev_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "mg_zs_ev",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mg_zs_ev_manual",
+      "name": "Manual",
+      "parent_uid": "mg_zs_ev",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mg_zs_ev_automatic",
+      "name": "Automatic",
+      "parent_uid": "mg_zs_ev",
+      "locale": "en-us"
+    },
+    {
+      "uid": "skoda",
+      "name": "Skoda",
+      "parent_uid": null,
+      "locale": "en-us"
+    },
+    {
+      "uid": "skoda_kushaq",
+      "name": "Kushaq",
+      "parent_uid": "skoda",
+      "locale": "en-us"
+    },
+    {
+      "uid": "skoda_kushaq_petrol",
+      "name": "Petrol",
+      "parent_uid": "skoda_kushaq",
+      "locale": "en-us"
+    },
+    {
+      "uid": "skoda_kushaq_diesel",
+      "name": "Diesel",
+      "parent_uid": "skoda_kushaq",
+      "locale": "en-us"
+    },
+    {
+      "uid": "skoda_kushaq_cng",
+      "name": "CNG",
+      "parent_uid": "skoda_kushaq",
+      "locale": "en-us"
+    },
+    {
+      "uid": "skoda_kushaq_electric",
+      "name": "Electric",
+      "parent_uid": "skoda_kushaq",
+      "locale": "en-us"
+    },
+    {
+      "uid": "skoda_kushaq_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "skoda_kushaq",
+      "locale": "en-us"
+    },
+    {
+      "uid": "skoda_kushaq_manual",
+      "name": "Manual",
+      "parent_uid": "skoda_kushaq",
+      "locale": "en-us"
+    },
+    {
+      "uid": "skoda_kushaq_automatic",
+      "name": "Automatic",
+      "parent_uid": "skoda_kushaq",
+      "locale": "en-us"
+    },
+    {
+      "uid": "skoda_slavia",
+      "name": "Slavia",
+      "parent_uid": "skoda",
+      "locale": "en-us"
+    },
+    {
+      "uid": "skoda_slavia_petrol",
+      "name": "Petrol",
+      "parent_uid": "skoda_slavia",
+      "locale": "en-us"
+    },
+    {
+      "uid": "skoda_slavia_diesel",
+      "name": "Diesel",
+      "parent_uid": "skoda_slavia",
+      "locale": "en-us"
+    },
+    {
+      "uid": "skoda_slavia_cng",
+      "name": "CNG",
+      "parent_uid": "skoda_slavia",
+      "locale": "en-us"
+    },
+    {
+      "uid": "skoda_slavia_electric",
+      "name": "Electric",
+      "parent_uid": "skoda_slavia",
+      "locale": "en-us"
+    },
+    {
+      "uid": "skoda_slavia_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "skoda_slavia",
+      "locale": "en-us"
+    },
+    {
+      "uid": "skoda_slavia_manual",
+      "name": "Manual",
+      "parent_uid": "skoda_slavia",
+      "locale": "en-us"
+    },
+    {
+      "uid": "skoda_slavia_automatic",
+      "name": "Automatic",
+      "parent_uid": "skoda_slavia",
+      "locale": "en-us"
+    },
+    {
+      "uid": "volkswagen",
+      "name": "Volkswagen",
+      "parent_uid": null,
+      "locale": "en-us"
+    },
+    {
+      "uid": "volkswagen_virtus",
+      "name": "Virtus",
+      "parent_uid": "volkswagen",
+      "locale": "en-us"
+    },
+    {
+      "uid": "volkswagen_virtus_petrol",
+      "name": "Petrol",
+      "parent_uid": "volkswagen_virtus",
+      "locale": "en-us"
+    },
+    {
+      "uid": "volkswagen_virtus_diesel",
+      "name": "Diesel",
+      "parent_uid": "volkswagen_virtus",
+      "locale": "en-us"
+    },
+    {
+      "uid": "volkswagen_virtus_cng",
+      "name": "CNG",
+      "parent_uid": "volkswagen_virtus",
+      "locale": "en-us"
+    },
+    {
+      "uid": "volkswagen_virtus_electric",
+      "name": "Electric",
+      "parent_uid": "volkswagen_virtus",
+      "locale": "en-us"
+    },
+    {
+      "uid": "volkswagen_virtus_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "volkswagen_virtus",
+      "locale": "en-us"
+    },
+    {
+      "uid": "volkswagen_virtus_manual",
+      "name": "Manual",
+      "parent_uid": "volkswagen_virtus",
+      "locale": "en-us"
+    },
+    {
+      "uid": "volkswagen_virtus_automatic",
+      "name": "Automatic",
+      "parent_uid": "volkswagen_virtus",
+      "locale": "en-us"
+    },
+    {
+      "uid": "volkswagen_taigun",
+      "name": "Taigun",
+      "parent_uid": "volkswagen",
+      "locale": "en-us"
+    },
+    {
+      "uid": "volkswagen_taigun_petrol",
+      "name": "Petrol",
+      "parent_uid": "volkswagen_taigun",
+      "locale": "en-us"
+    },
+    {
+      "uid": "volkswagen_taigun_diesel",
+      "name": "Diesel",
+      "parent_uid": "volkswagen_taigun",
+      "locale": "en-us"
+    },
+    {
+      "uid": "volkswagen_taigun_cng",
+      "name": "CNG",
+      "parent_uid": "volkswagen_taigun",
+      "locale": "en-us"
+    },
+    {
+      "uid": "volkswagen_taigun_electric",
+      "name": "Electric",
+      "parent_uid": "volkswagen_taigun",
+      "locale": "en-us"
+    },
+    {
+      "uid": "volkswagen_taigun_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "volkswagen_taigun",
+      "locale": "en-us"
+    },
+    {
+      "uid": "volkswagen_taigun_manual",
+      "name": "Manual",
+      "parent_uid": "volkswagen_taigun",
+      "locale": "en-us"
+    },
+    {
+      "uid": "volkswagen_taigun_automatic",
+      "name": "Automatic",
+      "parent_uid": "volkswagen_taigun",
+      "locale": "en-us"
+    },
+    {
+      "uid": "bmw",
+      "name": "Bmw",
+      "parent_uid": null,
+      "locale": "en-us"
+    },
+    {
+      "uid": "bmw_3_series",
+      "name": "3 Series",
+      "parent_uid": "bmw",
+      "locale": "en-us"
+    },
+    {
+      "uid": "bmw_3_series_petrol",
+      "name": "Petrol",
+      "parent_uid": "bmw_3_series",
+      "locale": "en-us"
+    },
+    {
+      "uid": "bmw_3_series_diesel",
+      "name": "Diesel",
+      "parent_uid": "bmw_3_series",
+      "locale": "en-us"
+    },
+    {
+      "uid": "bmw_3_series_cng",
+      "name": "CNG",
+      "parent_uid": "bmw_3_series",
+      "locale": "en-us"
+    },
+    {
+      "uid": "bmw_3_series_electric",
+      "name": "Electric",
+      "parent_uid": "bmw_3_series",
+      "locale": "en-us"
+    },
+    {
+      "uid": "bmw_3_series_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "bmw_3_series",
+      "locale": "en-us"
+    },
+    {
+      "uid": "bmw_3_series_manual",
+      "name": "Manual",
+      "parent_uid": "bmw_3_series",
+      "locale": "en-us"
+    },
+    {
+      "uid": "bmw_3_series_automatic",
+      "name": "Automatic",
+      "parent_uid": "bmw_3_series",
+      "locale": "en-us"
+    },
+    {
+      "uid": "bmw_x5",
+      "name": "X5",
+      "parent_uid": "bmw",
+      "locale": "en-us"
+    },
+    {
+      "uid": "bmw_x5_petrol",
+      "name": "Petrol",
+      "parent_uid": "bmw_x5",
+      "locale": "en-us"
+    },
+    {
+      "uid": "bmw_x5_diesel",
+      "name": "Diesel",
+      "parent_uid": "bmw_x5",
+      "locale": "en-us"
+    },
+    {
+      "uid": "bmw_x5_cng",
+      "name": "CNG",
+      "parent_uid": "bmw_x5",
+      "locale": "en-us"
+    },
+    {
+      "uid": "bmw_x5_electric",
+      "name": "Electric",
+      "parent_uid": "bmw_x5",
+      "locale": "en-us"
+    },
+    {
+      "uid": "bmw_x5_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "bmw_x5",
+      "locale": "en-us"
+    },
+    {
+      "uid": "bmw_x5_manual",
+      "name": "Manual",
+      "parent_uid": "bmw_x5",
+      "locale": "en-us"
+    },
+    {
+      "uid": "bmw_x5_automatic",
+      "name": "Automatic",
+      "parent_uid": "bmw_x5",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mercedes_benz",
+      "name": "Mercedes Benz",
+      "parent_uid": null,
+      "locale": "en-us"
+    },
+    {
+      "uid": "mercedes_benz_c-class",
+      "name": "C-Class",
+      "parent_uid": "mercedes_benz",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mercedes_benz_c-class_petrol",
+      "name": "Petrol",
+      "parent_uid": "mercedes_benz_c-class",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mercedes_benz_c-class_diesel",
+      "name": "Diesel",
+      "parent_uid": "mercedes_benz_c-class",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mercedes_benz_c-class_cng",
+      "name": "CNG",
+      "parent_uid": "mercedes_benz_c-class",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mercedes_benz_c-class_electric",
+      "name": "Electric",
+      "parent_uid": "mercedes_benz_c-class",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mercedes_benz_c-class_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "mercedes_benz_c-class",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mercedes_benz_c-class_manual",
+      "name": "Manual",
+      "parent_uid": "mercedes_benz_c-class",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mercedes_benz_c-class_automatic",
+      "name": "Automatic",
+      "parent_uid": "mercedes_benz_c-class",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mercedes_benz_glc",
+      "name": "GLC",
+      "parent_uid": "mercedes_benz",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mercedes_benz_glc_petrol",
+      "name": "Petrol",
+      "parent_uid": "mercedes_benz_glc",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mercedes_benz_glc_diesel",
+      "name": "Diesel",
+      "parent_uid": "mercedes_benz_glc",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mercedes_benz_glc_cng",
+      "name": "CNG",
+      "parent_uid": "mercedes_benz_glc",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mercedes_benz_glc_electric",
+      "name": "Electric",
+      "parent_uid": "mercedes_benz_glc",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mercedes_benz_glc_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "mercedes_benz_glc",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mercedes_benz_glc_manual",
+      "name": "Manual",
+      "parent_uid": "mercedes_benz_glc",
+      "locale": "en-us"
+    },
+    {
+      "uid": "mercedes_benz_glc_automatic",
+      "name": "Automatic",
+      "parent_uid": "mercedes_benz_glc",
+      "locale": "en-us"
+    },
+    {
+      "uid": "audi",
+      "name": "Audi",
+      "parent_uid": null,
+      "locale": "en-us"
+    },
+    {
+      "uid": "audi_a4",
+      "name": "A4",
+      "parent_uid": "audi",
+      "locale": "en-us"
+    },
+    {
+      "uid": "audi_a4_petrol",
+      "name": "Petrol",
+      "parent_uid": "audi_a4",
+      "locale": "en-us"
+    },
+    {
+      "uid": "audi_a4_diesel",
+      "name": "Diesel",
+      "parent_uid": "audi_a4",
+      "locale": "en-us"
+    },
+    {
+      "uid": "audi_a4_cng",
+      "name": "CNG",
+      "parent_uid": "audi_a4",
+      "locale": "en-us"
+    },
+    {
+      "uid": "audi_a4_electric",
+      "name": "Electric",
+      "parent_uid": "audi_a4",
+      "locale": "en-us"
+    },
+    {
+      "uid": "audi_a4_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "audi_a4",
+      "locale": "en-us"
+    },
+    {
+      "uid": "audi_a4_manual",
+      "name": "Manual",
+      "parent_uid": "audi_a4",
+      "locale": "en-us"
+    },
+    {
+      "uid": "audi_a4_automatic",
+      "name": "Automatic",
+      "parent_uid": "audi_a4",
+      "locale": "en-us"
+    },
+    {
+      "uid": "audi_q3",
+      "name": "Q3",
+      "parent_uid": "audi",
+      "locale": "en-us"
+    },
+    {
+      "uid": "audi_q3_petrol",
+      "name": "Petrol",
+      "parent_uid": "audi_q3",
+      "locale": "en-us"
+    },
+    {
+      "uid": "audi_q3_diesel",
+      "name": "Diesel",
+      "parent_uid": "audi_q3",
+      "locale": "en-us"
+    },
+    {
+      "uid": "audi_q3_cng",
+      "name": "CNG",
+      "parent_uid": "audi_q3",
+      "locale": "en-us"
+    },
+    {
+      "uid": "audi_q3_electric",
+      "name": "Electric",
+      "parent_uid": "audi_q3",
+      "locale": "en-us"
+    },
+    {
+      "uid": "audi_q3_hybrid",
+      "name": "Hybrid",
+      "parent_uid": "audi_q3",
+      "locale": "en-us"
+    },
+    {
+      "uid": "audi_q3_manual",
+      "name": "Manual",
+      "parent_uid": "audi_q3",
+      "locale": "en-us"
+    },
+    {
+      "uid": "audi_q3_automatic",
+      "name": "Automatic",
+      "parent_uid": "audi_q3",
+      "locale": "en-us"
+    }
+  ]
+}

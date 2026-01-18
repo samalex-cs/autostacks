@@ -1,0 +1,24 @@
+# Maven
+target/
+!target/*.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Misc
+*.log
+*.md
+Dockerfile
+.dockerignore
+
+# Firebase credentials (should be mounted as secret in Cloud Run)
+serviceAccountKey.json
+

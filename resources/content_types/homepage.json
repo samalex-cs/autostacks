@@ -1,0 +1,48 @@
+{
+  "content_type": {
+    "uid": "homepage",
+    "title": "Homepage",
+    "schema": [
+      {
+        "uid": "components",
+        "display_name": "Components",
+        "data_type": "blocks",
+        "blocks": [
+          {
+            "uid": "hero",
+            "schema": [
+              {
+                "uid": "title",
+                "data_type": "text",
+                "display_name": "Title"
+              },
+              {
+                "uid": "subtitle",
+                "data_type": "text",
+                "display_name": "Subtitle"
+              },
+              {
+                "uid": "image_url",
+                "data_type": "text",
+                "display_name": "Image Url"
+              }
+            ]
+          },
+          {
+            "uid": "featured_cars",
+            "schema": [
+              {
+                "uid": "title",
+                "data_type": "text",
+                "display_name": "Title"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "options": {
+      "singleton": true
+    }
+  }
+}

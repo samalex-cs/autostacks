@@ -1,0 +1,45 @@
+{
+  "content_type": {
+    "uid": "new_car",
+    "title": "New Car",
+    "schema": [
+      {
+        "uid": "make",
+        "data_type": "reference",
+        "display_name": "Make",
+        "reference_to": [
+          "taxonomy_terms"
+        ]
+      },
+      {
+        "uid": "model",
+        "data_type": "reference",
+        "display_name": "Model",
+        "reference_to": [
+          "taxonomy_terms"
+        ]
+      },
+      {
+        "uid": "variant",
+        "data_type": "reference",
+        "display_name": "Variant",
+        "reference_to": [
+          "taxonomy_terms"
+        ]
+      },
+      {
+        "uid": "price",
+        "data_type": "number",
+        "display_name": "Price"
+      },
+      {
+        "uid": "fuel_type",
+        "data_type": "text",
+        "display_name": "Fuel Type"
+      }
+    ],
+    "options": {
+      "singleton": false
+    }
+  }
+}

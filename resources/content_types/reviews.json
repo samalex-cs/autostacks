@@ -1,0 +1,34 @@
+{
+  "content_type": {
+    "uid": "reviews",
+    "title": "Reviews",
+    "schema": [
+      {
+        "uid": "title",
+        "data_type": "text",
+        "display_name": "Title"
+      },
+      {
+        "uid": "rating",
+        "data_type": "number",
+        "display_name": "Rating"
+      },
+      {
+        "uid": "body",
+        "data_type": "text",
+        "display_name": "Body"
+      },
+      {
+        "uid": "model",
+        "data_type": "reference",
+        "display_name": "Model",
+        "reference_to": [
+          "taxonomy_terms"
+        ]
+      }
+    ],
+    "options": {
+      "singleton": false
+    }
+  }
+}

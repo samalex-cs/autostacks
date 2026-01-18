@@ -1,0 +1,518 @@
+{
+  "content_type": "car",
+  "locale": "en-us",
+  "entries": [
+    {
+      "title": "Tata Nexon XZ+ Diesel 2024",
+      "slug": "tata-nexon-xz-plus-diesel-2024",
+      "taxonomies": [
+        {
+          "taxonomy_uid": "cars_india",
+          "term_uid": "tata_nexon"
+        },
+        {
+          "taxonomy_uid": "indian_cities",
+          "term_uid": "mumbai"
+        }
+      ],
+      "brand": "Tata",
+      "model": "Nexon",
+      "variant": "XZ+ Diesel",
+      "year": 2024,
+      "price": 1245000,
+      "ex_showroom_price": 1245000,
+      "fuel_type": "Diesel",
+      "transmission": "Manual",
+      "body_type": "SUV",
+      "seating_capacity": 5,
+      "mileage": "21.5 km/l",
+      "engine_capacity": "1497 cc",
+      "max_power": "118 bhp @ 4000 rpm",
+      "max_torque": "260 Nm @ 1500-2750 rpm",
+      "description": "The Tata Nexon XZ+ is a feature-packed compact SUV that offers excellent safety ratings, modern features, and impressive fuel efficiency. With its bold design and robust build quality, it's perfect for both city driving and long highway journeys.",
+      "short_description": "5-star safety rated compact SUV with bold design and impressive features",
+      "thumbnail": null,
+      "images": null,
+      "colors": ["Flame Red", "Foliage Green", "Calgary White", "Daytona Grey", "Atlas Black"],
+      "features": ["Ventilated Seats", "Sunroof", "7-inch Touchscreen", "Apple CarPlay", "Android Auto", "Wireless Charging", "Automatic Climate Control", "Rain Sensing Wipers"],
+      "safety_features": ["6 Airbags", "ABS with EBD", "ESP", "Hill Hold Control", "ISOFIX", "Rear Parking Camera", "TPMS"],
+      "city": "Mumbai",
+      "is_new": true,
+      "is_featured": true,
+      "car_type": "new",
+      "dealer_name": "Tata Motors Mumbai Central",
+      "dealer_contact": "+91 98765 43210",
+      "specifications": {
+        "length": 3993,
+        "width": 1811,
+        "height": 1606,
+        "wheelbase": 2498,
+        "ground_clearance": 209,
+        "boot_space": 350,
+        "fuel_tank_capacity": 44,
+        "kerb_weight": 1280
+      }
+    },
+    {
+      "title": "Hyundai Creta SX Petrol 2024",
+      "slug": "hyundai-creta-sx-petrol-2024",
+      "taxonomies": [
+        {
+          "taxonomy_uid": "cars_india",
+          "term_uid": "hyundai_creta"
+        },
+        {
+          "taxonomy_uid": "indian_cities",
+          "term_uid": "new_delhi"
+        }
+      ],
+      "brand": "Hyundai",
+      "model": "Creta",
+      "variant": "SX Petrol",
+      "year": 2024,
+      "price": 1650000,
+      "ex_showroom_price": 1650000,
+      "fuel_type": "Petrol",
+      "transmission": "Automatic",
+      "body_type": "SUV",
+      "seating_capacity": 5,
+      "mileage": "17.0 km/l",
+      "engine_capacity": "1497 cc",
+      "max_power": "115 bhp @ 6300 rpm",
+      "max_torque": "144 Nm @ 4500 rpm",
+      "description": "The Hyundai Creta SX is a premium mid-size SUV known for its refined driving experience, spacious interiors, and feature-rich cabin. It offers a perfect blend of style, comfort, and technology.",
+      "short_description": "Premium mid-size SUV with refined driving and feature-rich cabin",
+      "thumbnail": null,
+      "images": null,
+      "colors": ["Phantom Black", "Polar White", "Titan Grey", "Fiery Red", "Atlas White"],
+      "features": ["10.25-inch Touchscreen", "Panoramic Sunroof", "Bose Premium Sound", "Ventilated Front Seats", "Wireless Phone Charger", "BlueLink Connected Car Tech", "Drive Modes"],
+      "safety_features": ["6 Airbags", "ABS with EBD", "Vehicle Stability Control", "Hill Assist", "ISOFIX", "360 Camera", "Blind Spot Monitor"],
+      "city": "Delhi",
+      "is_new": true,
+      "is_featured": true,
+      "car_type": "new",
+      "dealer_name": "Hyundai Delhi Arena",
+      "dealer_contact": "+91 98765 43211",
+      "specifications": {
+        "length": 4300,
+        "width": 1790,
+        "height": 1635,
+        "wheelbase": 2610,
+        "ground_clearance": 190,
+        "boot_space": 433,
+        "fuel_tank_capacity": 50,
+        "kerb_weight": 1305
+      }
+    },
+    {
+      "title": "Maruti Swift ZXi 2024",
+      "slug": "maruti-swift-zxi-2024",
+      "taxonomies": [
+        {
+          "taxonomy_uid": "cars_india",
+          "term_uid": "maruti_suzuki_swift"
+        },
+        {
+          "taxonomy_uid": "indian_cities",
+          "term_uid": "bangalore"
+        }
+      ],
+      "brand": "Maruti Suzuki",
+      "model": "Swift",
+      "variant": "ZXi",
+      "year": 2024,
+      "price": 845000,
+      "ex_showroom_price": 845000,
+      "fuel_type": "Petrol",
+      "transmission": "Manual",
+      "body_type": "Hatchback",
+      "seating_capacity": 5,
+      "mileage": "22.56 km/l",
+      "engine_capacity": "1197 cc",
+      "max_power": "89 bhp @ 6000 rpm",
+      "max_torque": "113 Nm @ 4400 rpm",
+      "description": "The all-new Maruti Swift ZXi brings a fresh design language with improved features and better fuel efficiency. Perfect for urban commuting with its peppy engine and compact dimensions.",
+      "short_description": "India's favorite hatchback with new design and excellent mileage",
+      "thumbnail": null,
+      "images": null,
+      "colors": ["Solid Fire Red", "Pearl Arctic White", "Metallic Magma Grey", "Pearl Midnight Blue", "Metallic Sizzling Red"],
+      "features": ["9-inch SmartPlay Pro+", "Cruise Control", "Auto Headlamps", "Push Start/Stop", "Wireless Charging", "Auto-Folding ORVMs"],
+      "safety_features": ["6 Airbags", "ABS with EBD", "ESP", "Hill Hold", "Reverse Parking Sensors", "ISOFIX"],
+      "city": "Bangalore",
+      "is_new": true,
+      "is_featured": true,
+      "car_type": "new",
+      "dealer_name": "Maruti Suzuki Arena Bangalore",
+      "dealer_contact": "+91 98765 43212",
+      "specifications": {
+        "length": 3860,
+        "width": 1735,
+        "height": 1520,
+        "wheelbase": 2450,
+        "ground_clearance": 163,
+        "boot_space": 265,
+        "fuel_tank_capacity": 37,
+        "kerb_weight": 880
+      }
+    },
+    {
+      "title": "Mahindra XUV700 AX7 2024",
+      "slug": "mahindra-xuv700-ax7-2024",
+      "taxonomies": [
+        {
+          "taxonomy_uid": "cars_india",
+          "term_uid": "mahindra_xuv700"
+        },
+        {
+          "taxonomy_uid": "indian_cities",
+          "term_uid": "chennai"
+        }
+      ],
+      "brand": "Mahindra",
+      "model": "XUV700",
+      "variant": "AX7",
+      "year": 2024,
+      "price": 2150000,
+      "ex_showroom_price": 2150000,
+      "fuel_type": "Diesel",
+      "transmission": "Automatic",
+      "body_type": "SUV",
+      "seating_capacity": 7,
+      "mileage": "16.0 km/l",
+      "engine_capacity": "2198 cc",
+      "max_power": "185 bhp @ 3500 rpm",
+      "max_torque": "420 Nm @ 1600-2800 rpm",
+      "description": "The Mahindra XUV700 AX7 is a flagship SUV offering advanced technology, powerful performance, and premium comfort. With ADAS features and luxurious interiors, it redefines the Indian SUV segment.",
+      "short_description": "Flagship SUV with ADAS, powerful diesel engine, and 7-seat comfort",
+      "thumbnail": null,
+      "images": null,
+      "colors": ["Everest White", "Midnight Black", "Dazzling Silver", "Electric Blue", "Red Rage"],
+      "features": ["Dual 10.25-inch Screens", "ADAS Level 2", "Alexa Built-in", "Sony 3D Sound System", "Panoramic Sunroof", "Wireless Charging", "AdrenoX Connected Car"],
+      "safety_features": ["7 Airbags", "ABS with EBD", "ESP", "ADAS - Autonomous Emergency Braking", "Lane Keep Assist", "Adaptive Cruise Control", "360 Camera", "Driver Drowsiness Detection"],
+      "city": "Chennai",
+      "is_new": true,
+      "is_featured": true,
+      "car_type": "new",
+      "dealer_name": "Mahindra World Chennai",
+      "dealer_contact": "+91 98765 43213",
+      "specifications": {
+        "length": 4695,
+        "width": 1890,
+        "height": 1755,
+        "wheelbase": 2750,
+        "ground_clearance": 200,
+        "boot_space": 239,
+        "fuel_tank_capacity": 60,
+        "kerb_weight": 1895
+      }
+    },
+    {
+      "title": "Honda City ZX CVT 2024",
+      "slug": "honda-city-zx-cvt-2024",
+      "taxonomies": [
+        {
+          "taxonomy_uid": "cars_india",
+          "term_uid": "honda_city"
+        },
+        {
+          "taxonomy_uid": "indian_cities",
+          "term_uid": "pune"
+        }
+      ],
+      "brand": "Honda",
+      "model": "City",
+      "variant": "ZX CVT",
+      "year": 2024,
+      "price": 1520000,
+      "ex_showroom_price": 1520000,
+      "fuel_type": "Petrol",
+      "transmission": "CVT",
+      "body_type": "Sedan",
+      "seating_capacity": 5,
+      "mileage": "18.4 km/l",
+      "engine_capacity": "1498 cc",
+      "max_power": "121 bhp @ 6600 rpm",
+      "max_torque": "145 Nm @ 4300 rpm",
+      "description": "The Honda City ZX continues to be the benchmark in the premium sedan segment with its sophisticated design, refined powertrain, and class-leading features. Perfect for those who value elegance and reliability.",
+      "short_description": "Premium sedan with refined CVT and class-leading features",
+      "thumbnail": null,
+      "images": null,
+      "colors": ["Platinum White Pearl", "Radiant Red", "Golden Brown", "Lunar Silver", "Modern Steel"],
+      "features": ["8-inch Touchscreen", "LaneWatch Camera", "Sunroof", "Leather Seats", "Honda Connect", "Ambient Lighting", "G-Meter Display"],
+      "safety_features": ["6 Airbags", "ABS with EBD", "VSA", "Hill Start Assist", "ISOFIX", "LaneWatch", "Agile Handling Assist"],
+      "city": "Pune",
+      "is_new": true,
+      "is_featured": true,
+      "car_type": "new",
+      "dealer_name": "Honda Cars Pune",
+      "dealer_contact": "+91 98765 43214",
+      "specifications": {
+        "length": 4549,
+        "width": 1748,
+        "height": 1489,
+        "wheelbase": 2600,
+        "ground_clearance": 165,
+        "boot_space": 506,
+        "fuel_tank_capacity": 40,
+        "kerb_weight": 1118
+      }
+    },
+    {
+      "title": "Kia Seltos HTX 2024",
+      "slug": "kia-seltos-htx-2024",
+      "taxonomies": [
+        {
+          "taxonomy_uid": "cars_india",
+          "term_uid": "kia_seltos"
+        },
+        {
+          "taxonomy_uid": "indian_cities",
+          "term_uid": "hyderabad"
+        }
+      ],
+      "brand": "Kia",
+      "model": "Seltos",
+      "variant": "HTX",
+      "year": 2024,
+      "price": 1380000,
+      "ex_showroom_price": 1380000,
+      "fuel_type": "Petrol",
+      "transmission": "Manual",
+      "body_type": "SUV",
+      "seating_capacity": 5,
+      "mileage": "16.5 km/l",
+      "engine_capacity": "1497 cc",
+      "max_power": "115 bhp @ 6300 rpm",
+      "max_torque": "144 Nm @ 4500 rpm",
+      "description": "The Kia Seltos HTX offers a perfect balance of style, features, and value. With its aggressive looks and connected car technology, it appeals to young urban buyers looking for a modern SUV.",
+      "short_description": "Stylish mid-size SUV with connected car tech and bold design",
+      "thumbnail": null,
+      "images": null,
+      "colors": ["Aurora Black Pearl", "Glacier White Pearl", "Gravity Grey", "Intense Red", "Imperial Blue"],
+      "features": ["10.25-inch Touchscreen", "Bose Premium Audio", "UVO Connect", "Ventilated Seats", "Drive Modes", "Paddle Shifters", "Air Purifier"],
+      "safety_features": ["6 Airbags", "ABS with EBD", "ESC", "Hill Assist", "Brake Assist", "Rear Disc Brakes"],
+      "city": "Hyderabad",
+      "is_new": true,
+      "is_featured": true,
+      "car_type": "new",
+      "dealer_name": "Kia Hyderabad Central",
+      "dealer_contact": "+91 98765 43215",
+      "specifications": {
+        "length": 4315,
+        "width": 1800,
+        "height": 1620,
+        "wheelbase": 2610,
+        "ground_clearance": 190,
+        "boot_space": 433,
+        "fuel_tank_capacity": 50,
+        "kerb_weight": 1275
+      }
+    },
+    {
+      "title": "Toyota Fortuner 4x4 AT 2023",
+      "slug": "toyota-fortuner-4x4-at-2023-used",
+      "taxonomies": [
+        {
+          "taxonomy_uid": "cars_india",
+          "term_uid": "toyota_fortuner"
+        },
+        {
+          "taxonomy_uid": "indian_cities",
+          "term_uid": "mumbai"
+        }
+      ],
+      "brand": "Toyota",
+      "model": "Fortuner",
+      "variant": "4x4 AT",
+      "year": 2023,
+      "price": 3850000,
+      "fuel_type": "Diesel",
+      "transmission": "Automatic",
+      "body_type": "SUV",
+      "seating_capacity": 7,
+      "mileage": "10.0 km/l",
+      "engine_capacity": "2755 cc",
+      "max_power": "204 bhp @ 3400 rpm",
+      "max_torque": "500 Nm @ 1600-2800 rpm",
+      "description": "Well-maintained Toyota Fortuner 4x4 with full service history from authorized dealer. Single owner, accident-free with genuine low mileage. Perfect for those seeking a reliable premium SUV.",
+      "short_description": "Single owner Fortuner 4x4 with low mileage and full service history",
+      "thumbnail": null,
+      "images": null,
+      "colors": ["Phantom Brown"],
+      "features": ["8-inch Touchscreen", "JBL Premium Audio", "Cooled Glove Box", "Wireless Charging", "Paddle Shifters", "Kick Sensor Tailgate"],
+      "safety_features": ["7 Airbags", "ABS with EBD", "VSC", "Hill Assist", "TPMS", "360 Camera"],
+      "city": "Mumbai",
+      "is_new": false,
+      "is_featured": false,
+      "car_type": "used",
+      "dealer_name": "CarWale Premium Mumbai",
+      "dealer_contact": "+91 98765 43216",
+      "odometer_reading": 25000,
+      "ownership": "First",
+      "registration_year": 2023,
+      "insurance_valid_till": "March 2025",
+      "specifications": {
+        "length": 4795,
+        "width": 1855,
+        "height": 1835,
+        "wheelbase": 2745,
+        "ground_clearance": 225,
+        "boot_space": 296,
+        "fuel_tank_capacity": 80,
+        "kerb_weight": 2130
+      }
+    },
+    {
+      "title": "Hyundai i20 Asta 2022",
+      "slug": "hyundai-i20-asta-2022-used",
+      "taxonomies": [
+        {
+          "taxonomy_uid": "cars_india",
+          "term_uid": "hyundai_i20"
+        },
+        {
+          "taxonomy_uid": "indian_cities",
+          "term_uid": "new_delhi"
+        }
+      ],
+      "brand": "Hyundai",
+      "model": "i20",
+      "variant": "Asta",
+      "year": 2022,
+      "price": 785000,
+      "fuel_type": "Petrol",
+      "transmission": "Manual",
+      "body_type": "Hatchback",
+      "seating_capacity": 5,
+      "mileage": "20.35 km/l",
+      "engine_capacity": "1197 cc",
+      "max_power": "83 bhp @ 6000 rpm",
+      "max_torque": "114 Nm @ 4000 rpm",
+      "description": "Excellent condition Hyundai i20 Asta with sunroof and all premium features. Well maintained by single owner with all service records available. Ideal for someone looking for a feature-rich premium hatchback.",
+      "short_description": "Premium hatchback with sunroof, single owner, excellent condition",
+      "thumbnail": null,
+      "images": null,
+      "colors": ["Starry Night"],
+      "features": ["10.25-inch Touchscreen", "Sunroof", "BlueLink", "Wireless Charging", "Bose Audio", "Air Purifier"],
+      "safety_features": ["6 Airbags", "ABS with EBD", "ESC", "VSM", "Hill Start Assist"],
+      "city": "Delhi",
+      "is_new": false,
+      "is_featured": false,
+      "car_type": "used",
+      "dealer_name": "Delhi Used Cars Hub",
+      "dealer_contact": "+91 98765 43217",
+      "odometer_reading": 32000,
+      "ownership": "First",
+      "registration_year": 2022,
+      "insurance_valid_till": "January 2025",
+      "specifications": {
+        "length": 3995,
+        "width": 1775,
+        "height": 1505,
+        "wheelbase": 2580,
+        "ground_clearance": 170,
+        "boot_space": 311,
+        "fuel_tank_capacity": 37,
+        "kerb_weight": 1045
+      }
+    },
+    {
+      "title": "MG Hector Plus Sharp CVT 2024",
+      "slug": "mg-hector-plus-sharp-cvt-2024",
+      "taxonomies": [
+        {
+          "taxonomy_uid": "cars_india",
+          "term_uid": "mg_hector"
+        }
+      ],
+      "brand": "MG",
+      "model": "Hector Plus",
+      "variant": "Sharp CVT",
+      "year": 2024,
+      "price": 2250000,
+      "ex_showroom_price": 2250000,
+      "fuel_type": "Petrol",
+      "transmission": "CVT",
+      "body_type": "SUV",
+      "seating_capacity": 6,
+      "mileage": "14.5 km/l",
+      "engine_capacity": "1451 cc",
+      "max_power": "143 bhp @ 5000 rpm",
+      "max_torque": "250 Nm @ 1600-3600 rpm",
+      "description": "The MG Hector Plus Sharp offers a spacious 6-seater configuration with captain seats in the middle row. Packed with technology including a massive 14-inch touchscreen and i-SMART connected features.",
+      "short_description": "Feature-packed 6-seater SUV with 14-inch touchscreen and i-SMART",
+      "thumbnail": null,
+      "images": null,
+      "colors": ["Starry Black", "Candy White", "Glaze Red", "Aurora Silver"],
+      "features": ["14-inch Touchscreen", "i-SMART 2.0", "Panoramic Sunroof", "Infinity Sound System", "Hands-free Tailgate", "Wireless Charging", "70+ Connected Features"],
+      "safety_features": ["6 Airbags", "ABS with EBD", "ESP", "Traction Control", "Hill Descent Control", "360 Camera", "TPMS"],
+      "city": "Kolkata",
+      "is_new": true,
+      "is_featured": false,
+      "car_type": "new",
+      "dealer_name": "MG Kolkata Central",
+      "dealer_contact": "+91 98765 43218",
+      "specifications": {
+        "length": 4720,
+        "width": 1835,
+        "height": 1760,
+        "wheelbase": 2750,
+        "ground_clearance": 192,
+        "boot_space": 155,
+        "fuel_tank_capacity": 60,
+        "kerb_weight": 1750
+      }
+    },
+    {
+      "title": "Skoda Slavia Style AT 2024",
+      "slug": "skoda-slavia-style-at-2024",
+      "taxonomies": [
+        {
+          "taxonomy_uid": "cars_india",
+          "term_uid": "skoda_slavia"
+        },
+        {
+          "taxonomy_uid": "indian_cities",
+          "term_uid": "ahmedabad"
+        }
+      ],
+      "brand": "Skoda",
+      "model": "Slavia",
+      "variant": "Style AT",
+      "year": 2024,
+      "price": 1695000,
+      "ex_showroom_price": 1695000,
+      "fuel_type": "Petrol",
+      "transmission": "Automatic",
+      "body_type": "Sedan",
+      "seating_capacity": 5,
+      "mileage": "17.2 km/l",
+      "engine_capacity": "1498 cc",
+      "max_power": "150 bhp @ 5000-6000 rpm",
+      "max_torque": "250 Nm @ 1500-3500 rpm",
+      "description": "The Skoda Slavia Style represents European engineering excellence with its TSI engine and refined driving dynamics. A perfect sedan for enthusiasts who appreciate performance and build quality.",
+      "short_description": "European sedan with 1.5L TSI engine and premium driving experience",
+      "thumbnail": null,
+      "images": null,
+      "colors": ["Candy White", "Carbon Steel", "Tornado Red", "Reflex Silver", "Lava Blue"],
+      "features": ["10-inch Touchscreen", "Ventilated Seats", "Electric Sunroof", "Wireless SmartLink", "Ambient Lighting", "Climatronic", "Cruise Control"],
+      "safety_features": ["6 Airbags", "ABS with EBD", "ESC", "Multi-Collision Braking", "ISOFIX", "Rear Parking Camera", "Tyre Pressure Monitor"],
+      "city": "Ahmedabad",
+      "is_new": true,
+      "is_featured": false,
+      "car_type": "new",
+      "dealer_name": "Skoda Ahmedabad",
+      "dealer_contact": "+91 98765 43219",
+      "specifications": {
+        "length": 4541,
+        "width": 1752,
+        "height": 1487,
+        "wheelbase": 2651,
+        "ground_clearance": 179,
+        "boot_space": 521,
+        "fuel_tank_capacity": 45,
+        "kerb_weight": 1195
+      }
+    }
+  ]
+}

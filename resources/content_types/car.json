@@ -1,0 +1,432 @@
+{
+  "content_type": {
+    "uid": "car",
+    "title": "Car",
+    "description": "Car listings for the AutoStack platform - supports both new and used cars",
+    "schema": [
+      {
+        "uid": "title",
+        "display_name": "Title",
+        "data_type": "text",
+        "mandatory": true,
+        "unique": true,
+        "field_metadata": {
+          "instruction": "Full car title (e.g., 'Tata Nexon XZ+ Diesel 2024')"
+        }
+      },
+      {
+        "uid": "slug",
+        "display_name": "URL Slug",
+        "data_type": "text",
+        "mandatory": true,
+        "unique": true,
+        "field_metadata": {
+          "instruction": "URL-friendly identifier (e.g., 'tata-nexon-xz-plus-diesel-2024')"
+        }
+      },
+      {
+        "uid": "taxonomies",
+        "display_name": "Taxonomy References",
+        "data_type": "taxonomy",
+        "mandatory": true,
+        "multiple": true,
+        "taxonomies": [
+          {
+            "taxonomy_uid": "cars_india",
+            "max_terms": 3,
+            "mandatory": true
+          },
+          {
+            "taxonomy_uid": "indian_cities",
+            "max_terms": 1,
+            "mandatory": false
+          }
+        ],
+        "field_metadata": {
+          "instruction": "Select car make/model from Cars in India and optionally a city from Indian Cities"
+        }
+      },
+      {
+        "uid": "brand",
+        "display_name": "Brand (Display)",
+        "data_type": "text",
+        "mandatory": true,
+        "field_metadata": {
+          "instruction": "Car manufacturer name for display (e.g., Tata, Hyundai)"
+        }
+      },
+      {
+        "uid": "model",
+        "display_name": "Model (Display)",
+        "data_type": "text",
+        "mandatory": true,
+        "field_metadata": {
+          "instruction": "Car model name for display (e.g., Nexon, Creta)"
+        }
+      },
+      {
+        "uid": "variant",
+        "display_name": "Variant",
+        "data_type": "text",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Specific variant (e.g., XZ+, SX, ZXi)"
+        }
+      },
+      {
+        "uid": "year",
+        "display_name": "Year",
+        "data_type": "number",
+        "mandatory": true,
+        "field_metadata": {
+          "instruction": "Manufacturing year"
+        }
+      },
+      {
+        "uid": "price",
+        "display_name": "Price",
+        "data_type": "number",
+        "mandatory": true,
+        "field_metadata": {
+          "instruction": "Price in INR (e.g., 1245000 for ₹12.45 Lakh)"
+        }
+      },
+      {
+        "uid": "ex_showroom_price",
+        "display_name": "Ex-Showroom Price",
+        "data_type": "number",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Ex-showroom price in INR (for new cars)"
+        }
+      },
+      {
+        "uid": "fuel_type",
+        "display_name": "Fuel Type",
+        "data_type": "text",
+        "mandatory": true,
+        "enum": {
+          "advanced": false,
+          "choices": [
+            { "value": "Petrol" },
+            { "value": "Diesel" },
+            { "value": "Electric" },
+            { "value": "Hybrid" },
+            { "value": "CNG" },
+            { "value": "LPG" }
+          ]
+        },
+        "display_type": "dropdown"
+      },
+      {
+        "uid": "transmission",
+        "display_name": "Transmission",
+        "data_type": "text",
+        "mandatory": true,
+        "enum": {
+          "advanced": false,
+          "choices": [
+            { "value": "Manual" },
+            { "value": "Automatic" },
+            { "value": "AMT" },
+            { "value": "CVT" },
+            { "value": "DCT" }
+          ]
+        },
+        "display_type": "dropdown"
+      },
+      {
+        "uid": "body_type",
+        "display_name": "Body Type",
+        "data_type": "text",
+        "mandatory": true,
+        "enum": {
+          "advanced": false,
+          "choices": [
+            { "value": "Hatchback" },
+            { "value": "Sedan" },
+            { "value": "SUV" },
+            { "value": "MUV" },
+            { "value": "Coupe" },
+            { "value": "Convertible" },
+            { "value": "Pickup" },
+            { "value": "Van" }
+          ]
+        },
+        "display_type": "dropdown"
+      },
+      {
+        "uid": "seating_capacity",
+        "display_name": "Seating Capacity",
+        "data_type": "number",
+        "mandatory": true,
+        "field_metadata": {
+          "instruction": "Number of seats"
+        }
+      },
+      {
+        "uid": "mileage",
+        "display_name": "Mileage",
+        "data_type": "text",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Fuel efficiency (e.g., '21.5 km/l')"
+        }
+      },
+      {
+        "uid": "engine_capacity",
+        "display_name": "Engine Capacity",
+        "data_type": "text",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Engine displacement (e.g., '1497 cc')"
+        }
+      },
+      {
+        "uid": "max_power",
+        "display_name": "Max Power",
+        "data_type": "text",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Maximum power output (e.g., '118 bhp @ 4000 rpm')"
+        }
+      },
+      {
+        "uid": "max_torque",
+        "display_name": "Max Torque",
+        "data_type": "text",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Maximum torque (e.g., '260 Nm @ 1500-2750 rpm')"
+        }
+      },
+      {
+        "uid": "description",
+        "display_name": "Description",
+        "data_type": "text",
+        "mandatory": false,
+        "field_metadata": {
+          "multiline": true,
+          "instruction": "Detailed description of the car"
+        }
+      },
+      {
+        "uid": "short_description",
+        "display_name": "Short Description",
+        "data_type": "text",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Brief description for listings (max 150 chars)"
+        }
+      },
+      {
+        "uid": "thumbnail",
+        "display_name": "Thumbnail Image",
+        "data_type": "file",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Main image for listings (recommended: 800x600px)"
+        }
+      },
+      {
+        "uid": "images",
+        "display_name": "Gallery Images",
+        "data_type": "file",
+        "mandatory": false,
+        "multiple": true,
+        "field_metadata": {
+          "instruction": "Additional images for the gallery"
+        }
+      },
+      {
+        "uid": "colors",
+        "display_name": "Available Colors",
+        "data_type": "text",
+        "mandatory": false,
+        "multiple": true,
+        "field_metadata": {
+          "instruction": "Available color options"
+        }
+      },
+      {
+        "uid": "features",
+        "display_name": "Features",
+        "data_type": "text",
+        "mandatory": false,
+        "multiple": true,
+        "field_metadata": {
+          "instruction": "Key features (e.g., 'Sunroof', 'Apple CarPlay')"
+        }
+      },
+      {
+        "uid": "safety_features",
+        "display_name": "Safety Features",
+        "data_type": "text",
+        "mandatory": false,
+        "multiple": true,
+        "field_metadata": {
+          "instruction": "Safety features (e.g., 'ABS', 'Airbags', 'ESP')"
+        }
+      },
+      {
+        "uid": "city",
+        "display_name": "City (Display)",
+        "data_type": "text",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "City name for display"
+        }
+      },
+      {
+        "uid": "is_new",
+        "display_name": "Is New Car",
+        "data_type": "boolean",
+        "mandatory": false,
+        "field_metadata": {
+          "default_value": true,
+          "instruction": "True for new cars, false for used cars"
+        }
+      },
+      {
+        "uid": "is_featured",
+        "display_name": "Is Featured",
+        "data_type": "boolean",
+        "mandatory": false,
+        "field_metadata": {
+          "default_value": false,
+          "instruction": "Show in featured section on homepage"
+        }
+      },
+      {
+        "uid": "dealer_name",
+        "display_name": "Dealer Name",
+        "data_type": "text",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Name of the dealer"
+        }
+      },
+      {
+        "uid": "dealer_contact",
+        "display_name": "Dealer Contact",
+        "data_type": "text",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Dealer phone number"
+        }
+      },
+      {
+        "uid": "odometer_reading",
+        "display_name": "Odometer Reading",
+        "data_type": "number",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Kilometers driven (for used cars)"
+        }
+      },
+      {
+        "uid": "ownership",
+        "display_name": "Ownership",
+        "data_type": "text",
+        "mandatory": false,
+        "enum": {
+          "advanced": false,
+          "choices": [
+            { "value": "First" },
+            { "value": "Second" },
+            { "value": "Third" },
+            { "value": "Fourth+" }
+          ]
+        },
+        "display_type": "dropdown",
+        "field_metadata": {
+          "instruction": "Number of previous owners (for used cars)"
+        }
+      },
+      {
+        "uid": "registration_year",
+        "display_name": "Registration Year",
+        "data_type": "number",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Year of registration (for used cars)"
+        }
+      },
+      {
+        "uid": "insurance_valid_till",
+        "display_name": "Insurance Valid Till",
+        "data_type": "text",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Insurance validity date (for used cars)"
+        }
+      },
+      {
+        "uid": "specifications",
+        "display_name": "Specifications",
+        "data_type": "group",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Detailed specifications"
+        },
+        "schema": [
+          {
+            "uid": "length",
+            "display_name": "Length (mm)",
+            "data_type": "number",
+            "mandatory": false
+          },
+          {
+            "uid": "width",
+            "display_name": "Width (mm)",
+            "data_type": "number",
+            "mandatory": false
+          },
+          {
+            "uid": "height",
+            "display_name": "Height (mm)",
+            "data_type": "number",
+            "mandatory": false
+          },
+          {
+            "uid": "wheelbase",
+            "display_name": "Wheelbase (mm)",
+            "data_type": "number",
+            "mandatory": false
+          },
+          {
+            "uid": "ground_clearance",
+            "display_name": "Ground Clearance (mm)",
+            "data_type": "number",
+            "mandatory": false
+          },
+          {
+            "uid": "boot_space",
+            "display_name": "Boot Space (litres)",
+            "data_type": "number",
+            "mandatory": false
+          },
+          {
+            "uid": "fuel_tank_capacity",
+            "display_name": "Fuel Tank Capacity (litres)",
+            "data_type": "number",
+            "mandatory": false
+          },
+          {
+            "uid": "kerb_weight",
+            "display_name": "Kerb Weight (kg)",
+            "data_type": "number",
+            "mandatory": false
+          }
+        ]
+      }
+    ],
+    "options": {
+      "singleton": false,
+      "title": "title",
+      "publishable": true,
+      "is_page": false,
+      "url_pattern": "/cars/:slug"
+    }
+  }
+}

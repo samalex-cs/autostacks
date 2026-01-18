@@ -1,0 +1,21 @@
+{
+  "content_type": {
+    "uid": "car_news",
+    "title": "Car News",
+    "schema": [
+      {
+        "uid": "title",
+        "data_type": "text",
+        "display_name": "Title"
+      },
+      {
+        "uid": "body",
+        "data_type": "text",
+        "display_name": "Body"
+      }
+    ],
+    "options": {
+      "singleton": false
+    }
+  }
+}

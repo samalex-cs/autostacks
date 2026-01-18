@@ -1,0 +1,32 @@
+{
+  "content_type": {
+    "uid": "comparison",
+    "title": "Comparison",
+    "schema": [
+      {
+        "uid": "car1",
+        "data_type": "reference",
+        "display_name": "Car1",
+        "reference_to": [
+          "taxonomy_terms"
+        ]
+      },
+      {
+        "uid": "car2",
+        "data_type": "reference",
+        "display_name": "Car2",
+        "reference_to": [
+          "taxonomy_terms"
+        ]
+      },
+      {
+        "uid": "verdict",
+        "data_type": "text",
+        "display_name": "Verdict"
+      }
+    ],
+    "options": {
+      "singleton": false
+    }
+  }
+}

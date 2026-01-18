@@ -1,0 +1,73 @@
+{
+  "content_type": {
+    "uid": "used_car",
+    "title": "Used Car",
+    "schema": [
+      {
+        "uid": "make",
+        "data_type": "reference",
+        "display_name": "Make",
+        "reference_to": [
+          "taxonomy_terms"
+        ]
+      },
+      {
+        "uid": "model",
+        "data_type": "reference",
+        "display_name": "Model",
+        "reference_to": [
+          "taxonomy_terms"
+        ]
+      },
+      {
+        "uid": "variant",
+        "data_type": "reference",
+        "display_name": "Variant",
+        "reference_to": [
+          "taxonomy_terms"
+        ]
+      },
+      {
+        "uid": "odometer_reading",
+        "data_type": "number",
+        "display_name": "Odometer Reading"
+      },
+      {
+        "uid": "color",
+        "data_type": "text",
+        "display_name": "Color"
+      },
+      {
+        "uid": "rto_city",
+        "data_type": "reference",
+        "display_name": "Rto City",
+        "reference_to": [
+          "taxonomy_terms"
+        ]
+      },
+      {
+        "uid": "car_number",
+        "data_type": "text",
+        "display_name": "Car Number"
+      },
+      {
+        "uid": "year_of_make",
+        "data_type": "number",
+        "display_name": "Year Of Make"
+      },
+      {
+        "uid": "car_condition",
+        "data_type": "text",
+        "display_name": "Car Condition"
+      },
+      {
+        "uid": "expected_price",
+        "data_type": "number",
+        "display_name": "Expected Price"
+      }
+    ],
+    "options": {
+      "singleton": false
+    }
+  }
+}

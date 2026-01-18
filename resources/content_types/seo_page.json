@@ -1,0 +1,26 @@
+{
+  "content_type": {
+    "uid": "seo_page",
+    "title": "SEO Page",
+    "schema": [
+      {
+        "uid": "slug",
+        "data_type": "text",
+        "display_name": "Slug"
+      },
+      {
+        "uid": "meta_title",
+        "data_type": "text",
+        "display_name": "Meta Title"
+      },
+      {
+        "uid": "meta_description",
+        "data_type": "text",
+        "display_name": "Meta Description"
+      }
+    ],
+    "options": {
+      "singleton": false
+    }
+  }
+}

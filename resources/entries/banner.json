@@ -1,0 +1,146 @@
+{
+  "content_type": "banner",
+  "locale": "en-us",
+  "entries": [
+    {
+      "title": "Homepage Banners",
+      "hero_banners": [
+        {
+          "headline": "Find Your Perfect Car",
+          "subheadline": "Browse thousands of new and used cars from verified dealers across India",
+          "background_image": null,
+          "background_image_url": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1920&q=80",
+          "overlay_opacity": 50,
+          "text_color": "light",
+          "primary_cta": {
+            "text": "Explore Cars",
+            "url": "/cars",
+            "style": "primary"
+          },
+          "secondary_cta": {
+            "text": "Sell Your Car",
+            "url": "/sell",
+            "style": "outline"
+          },
+          "is_active": true,
+          "display_order": 1
+        },
+        {
+          "headline": "Premium Pre-Owned Vehicles",
+          "subheadline": "Certified used cars with warranty and easy financing options",
+          "background_image": null,
+          "background_image_url": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1920&q=80",
+          "overlay_opacity": 45,
+          "text_color": "light",
+          "primary_cta": {
+            "text": "Browse Used Cars",
+            "url": "/cars?type=used",
+            "style": "primary"
+          },
+          "secondary_cta": {
+            "text": "Get Pre-Approved",
+            "url": "/financing",
+            "style": "outline"
+          },
+          "is_active": true,
+          "display_order": 2
+        },
+        {
+          "headline": "New Car Launches 2024",
+          "subheadline": "Discover the latest models from top brands with exclusive launch offers",
+          "background_image": null,
+          "background_image_url": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=1920&q=80",
+          "overlay_opacity": 40,
+          "text_color": "light",
+          "primary_cta": {
+            "text": "View New Cars",
+            "url": "/cars?type=new",
+            "style": "primary"
+          },
+          "secondary_cta": {
+            "text": "Book Test Drive",
+            "url": "/test-drive",
+            "style": "outline"
+          },
+          "is_active": true,
+          "display_order": 3
+        }
+      ],
+      "promotional_banners": [
+        {
+          "title": "Verified Dealers",
+          "description": "All our dealers are verified and trusted partners",
+          "image": null,
+          "image_url": null,
+          "icon": "shield",
+          "link_url": "/dealers",
+          "link_text": "Find Dealers",
+          "badge_text": null,
+          "background_color": "yellow",
+          "is_active": true,
+          "display_order": 1
+        },
+        {
+          "title": "Easy Financing",
+          "description": "Get instant loan approval with competitive interest rates",
+          "image": null,
+          "image_url": null,
+          "icon": "credit-card",
+          "link_url": "/financing",
+          "link_text": "Check Eligibility",
+          "badge_text": "NEW",
+          "background_color": "gray",
+          "is_active": true,
+          "display_order": 2
+        },
+        {
+          "title": "Free Test Drive",
+          "description": "Book a test drive at your doorstep, absolutely free",
+          "image": null,
+          "image_url": null,
+          "icon": "car",
+          "link_url": "/test-drive",
+          "link_text": "Book Now",
+          "badge_text": null,
+          "background_color": "yellow",
+          "is_active": true,
+          "display_order": 3
+        },
+        {
+          "title": "Compare Cars",
+          "description": "Compare features, specs, and prices side by side",
+          "image": null,
+          "image_url": null,
+          "icon": "chart",
+          "link_url": "/compare",
+          "link_text": "Compare Now",
+          "badge_text": null,
+          "background_color": "gray",
+          "is_active": true,
+          "display_order": 4
+        }
+      ],
+      "search_section": {
+        "show_search": true,
+        "search_placeholder": "Search by make, model, or keyword...",
+        "popular_searches": [
+          { "label": "Maruti Swift", "search_term": "maruti swift" },
+          { "label": "Hyundai Creta", "search_term": "hyundai creta" },
+          { "label": "Tata Nexon", "search_term": "tata nexon" },
+          { "label": "Honda City", "search_term": "honda city" },
+          { "label": "Under ₹10 Lakh", "search_term": "price:0-1000000" }
+        ]
+      },
+      "stats_section": {
+        "show_stats": true,
+        "stats": [
+          { "value": "10,000+", "label": "Cars Listed", "icon": "car" },
+          { "value": "500+", "label": "Verified Dealers", "icon": "users" },
+          { "value": "50+", "label": "Cities Covered", "icon": "map-pin" },
+          { "value": "98%", "label": "Happy Customers", "icon": "star" }
+        ]
+      }
+    }
+  ]
+}
+

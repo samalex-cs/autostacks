@@ -1,0 +1,34 @@
+{
+  "content_type": {
+    "uid": "dealer",
+    "title": "Dealer",
+    "schema": [
+      {
+        "uid": "name",
+        "data_type": "text",
+        "display_name": "Name"
+      },
+      {
+        "uid": "address",
+        "data_type": "text",
+        "display_name": "Address"
+      },
+      {
+        "uid": "city",
+        "data_type": "reference",
+        "display_name": "City",
+        "reference_to": [
+          "taxonomy_terms"
+        ]
+      },
+      {
+        "uid": "phone",
+        "data_type": "text",
+        "display_name": "Phone"
+      }
+    ],
+    "options": {
+      "singleton": false
+    }
+  }
+}

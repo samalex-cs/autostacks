@@ -1,0 +1,382 @@
+{
+  "content_type": {
+    "uid": "banner",
+    "title": "Banner",
+    "description": "Homepage hero banners and promotional banners for the AutoStack platform",
+    "schema": [
+      {
+        "uid": "title",
+        "display_name": "Title",
+        "data_type": "text",
+        "mandatory": true,
+        "unique": false,
+        "field_metadata": {
+          "instruction": "Internal title for this banner configuration"
+        }
+      },
+      {
+        "uid": "hero_banners",
+        "display_name": "Hero Banners",
+        "data_type": "group",
+        "multiple": true,
+        "mandatory": true,
+        "field_metadata": {
+          "instruction": "Main hero banners displayed in the carousel/slider on homepage"
+        },
+        "schema": [
+          {
+            "uid": "headline",
+            "display_name": "Headline",
+            "data_type": "text",
+            "mandatory": true,
+            "field_metadata": {
+              "instruction": "Main headline text (e.g., 'Find Your Perfect Car')"
+            }
+          },
+          {
+            "uid": "subheadline",
+            "display_name": "Subheadline",
+            "data_type": "text",
+            "mandatory": false,
+            "field_metadata": {
+              "instruction": "Supporting text below the headline"
+            }
+          },
+          {
+            "uid": "background_image",
+            "display_name": "Background Image",
+            "data_type": "file",
+            "mandatory": false,
+            "field_metadata": {
+              "instruction": "Hero background image (recommended: 1920x800px)"
+            }
+          },
+          {
+            "uid": "background_image_url",
+            "display_name": "Background Image URL",
+            "data_type": "text",
+            "mandatory": false,
+            "field_metadata": {
+              "instruction": "Alternative: External URL for background image"
+            }
+          },
+          {
+            "uid": "overlay_opacity",
+            "display_name": "Overlay Opacity",
+            "data_type": "number",
+            "mandatory": false,
+            "field_metadata": {
+              "instruction": "Dark overlay opacity (0-100). Default: 40"
+            }
+          },
+          {
+            "uid": "text_color",
+            "display_name": "Text Color",
+            "data_type": "text",
+            "mandatory": false,
+            "enum": {
+              "advanced": false,
+              "choices": [
+                { "value": "light" },
+                { "value": "dark" }
+              ]
+            },
+            "display_type": "dropdown",
+            "field_metadata": {
+              "default_value": "light",
+              "instruction": "Text color theme for readability"
+            }
+          },
+          {
+            "uid": "primary_cta",
+            "display_name": "Primary CTA",
+            "data_type": "group",
+            "mandatory": false,
+            "schema": [
+              {
+                "uid": "text",
+                "display_name": "Button Text",
+                "data_type": "text",
+                "mandatory": true
+              },
+              {
+                "uid": "url",
+                "display_name": "Button URL",
+                "data_type": "text",
+                "mandatory": true
+              },
+              {
+                "uid": "style",
+                "display_name": "Button Style",
+                "data_type": "text",
+                "mandatory": false,
+                "enum": {
+                  "advanced": false,
+                  "choices": [
+                    { "value": "primary" },
+                    { "value": "secondary" },
+                    { "value": "outline" }
+                  ]
+                },
+                "display_type": "dropdown"
+              }
+            ]
+          },
+          {
+            "uid": "secondary_cta",
+            "display_name": "Secondary CTA",
+            "data_type": "group",
+            "mandatory": false,
+            "schema": [
+              {
+                "uid": "text",
+                "display_name": "Button Text",
+                "data_type": "text",
+                "mandatory": true
+              },
+              {
+                "uid": "url",
+                "display_name": "Button URL",
+                "data_type": "text",
+                "mandatory": true
+              },
+              {
+                "uid": "style",
+                "display_name": "Button Style",
+                "data_type": "text",
+                "mandatory": false,
+                "enum": {
+                  "advanced": false,
+                  "choices": [
+                    { "value": "primary" },
+                    { "value": "secondary" },
+                    { "value": "outline" }
+                  ]
+                },
+                "display_type": "dropdown"
+              }
+            ]
+          },
+          {
+            "uid": "is_active",
+            "display_name": "Is Active",
+            "data_type": "boolean",
+            "mandatory": false,
+            "field_metadata": {
+              "default_value": true,
+              "instruction": "Toggle to show/hide this banner"
+            }
+          },
+          {
+            "uid": "display_order",
+            "display_name": "Display Order",
+            "data_type": "number",
+            "mandatory": false,
+            "field_metadata": {
+              "instruction": "Order in carousel (lower = first)"
+            }
+          }
+        ]
+      },
+      {
+        "uid": "promotional_banners",
+        "display_name": "Promotional Banners",
+        "data_type": "group",
+        "multiple": true,
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Smaller promotional banners for offers and features"
+        },
+        "schema": [
+          {
+            "uid": "title",
+            "display_name": "Title",
+            "data_type": "text",
+            "mandatory": true
+          },
+          {
+            "uid": "description",
+            "display_name": "Description",
+            "data_type": "text",
+            "mandatory": false
+          },
+          {
+            "uid": "image",
+            "display_name": "Image",
+            "data_type": "file",
+            "mandatory": false
+          },
+          {
+            "uid": "image_url",
+            "display_name": "Image URL",
+            "data_type": "text",
+            "mandatory": false,
+            "field_metadata": {
+              "instruction": "Alternative: External URL for image"
+            }
+          },
+          {
+            "uid": "icon",
+            "display_name": "Icon",
+            "data_type": "text",
+            "mandatory": false,
+            "field_metadata": {
+              "instruction": "Icon name (e.g., 'car', 'shield', 'tag', 'star')"
+            }
+          },
+          {
+            "uid": "link_url",
+            "display_name": "Link URL",
+            "data_type": "text",
+            "mandatory": false
+          },
+          {
+            "uid": "link_text",
+            "display_name": "Link Text",
+            "data_type": "text",
+            "mandatory": false
+          },
+          {
+            "uid": "badge_text",
+            "display_name": "Badge Text",
+            "data_type": "text",
+            "mandatory": false,
+            "field_metadata": {
+              "instruction": "Optional badge (e.g., 'NEW', 'HOT', '50% OFF')"
+            }
+          },
+          {
+            "uid": "background_color",
+            "display_name": "Background Color",
+            "data_type": "text",
+            "mandatory": false,
+            "field_metadata": {
+              "instruction": "CSS color or theme color (e.g., '#FACC15', 'yellow', 'gray')"
+            }
+          },
+          {
+            "uid": "is_active",
+            "display_name": "Is Active",
+            "data_type": "boolean",
+            "mandatory": false
+          },
+          {
+            "uid": "display_order",
+            "display_name": "Display Order",
+            "data_type": "number",
+            "mandatory": false
+          }
+        ]
+      },
+      {
+        "uid": "search_section",
+        "display_name": "Search Section",
+        "data_type": "group",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Configuration for the search bar section"
+        },
+        "schema": [
+          {
+            "uid": "show_search",
+            "display_name": "Show Search Bar",
+            "data_type": "boolean",
+            "mandatory": false,
+            "field_metadata": {
+              "default_value": true
+            }
+          },
+          {
+            "uid": "search_placeholder",
+            "display_name": "Search Placeholder",
+            "data_type": "text",
+            "mandatory": false,
+            "field_metadata": {
+              "default_value": "Search for cars by make, model, or keyword..."
+            }
+          },
+          {
+            "uid": "popular_searches",
+            "display_name": "Popular Searches",
+            "data_type": "group",
+            "multiple": true,
+            "mandatory": false,
+            "schema": [
+              {
+                "uid": "label",
+                "display_name": "Label",
+                "data_type": "text",
+                "mandatory": true
+              },
+              {
+                "uid": "search_term",
+                "display_name": "Search Term",
+                "data_type": "text",
+                "mandatory": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uid": "stats_section",
+        "display_name": "Statistics Section",
+        "data_type": "group",
+        "mandatory": false,
+        "field_metadata": {
+          "instruction": "Display key statistics/metrics"
+        },
+        "schema": [
+          {
+            "uid": "show_stats",
+            "display_name": "Show Statistics",
+            "data_type": "boolean",
+            "mandatory": false,
+            "field_metadata": {
+              "default_value": true
+            }
+          },
+          {
+            "uid": "stats",
+            "display_name": "Statistics",
+            "data_type": "group",
+            "multiple": true,
+            "mandatory": false,
+            "schema": [
+              {
+                "uid": "value",
+                "display_name": "Value",
+                "data_type": "text",
+                "mandatory": true,
+                "field_metadata": {
+                  "instruction": "e.g., '10,000+', '500+', '98%'"
+                }
+              },
+              {
+                "uid": "label",
+                "display_name": "Label",
+                "data_type": "text",
+                "mandatory": true,
+                "field_metadata": {
+                  "instruction": "e.g., 'Cars Listed', 'Verified Dealers', 'Happy Customers'"
+                }
+              },
+              {
+                "uid": "icon",
+                "display_name": "Icon",
+                "data_type": "text",
+                "mandatory": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "options": {
+      "singleton": true,
+      "title": "title",
+      "publishable": true,
+      "is_page": false
+    }
+  }
+}

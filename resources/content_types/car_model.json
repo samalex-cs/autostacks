@@ -1,0 +1,34 @@
+{
+  "content_type": {
+    "uid": "car_model",
+    "title": "Car Model",
+    "schema": [
+      {
+        "uid": "model_name",
+        "data_type": "text",
+        "display_name": "Model Name"
+      },
+      {
+        "uid": "model_taxonomy",
+        "data_type": "reference",
+        "display_name": "Model Taxonomy",
+        "reference_to": [
+          "taxonomy_terms"
+        ]
+      },
+      {
+        "uid": "body_type",
+        "data_type": "text",
+        "display_name": "Body Type"
+      },
+      {
+        "uid": "starting_price",
+        "data_type": "number",
+        "display_name": "Starting Price"
+      }
+    ],
+    "options": {
+      "singleton": false
+    }
+  }
+}
