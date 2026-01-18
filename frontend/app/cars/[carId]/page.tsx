@@ -562,8 +562,8 @@ export default function CarDetailPage() {
     try {
       await postTestDrive({
         carId: car.uid,
-        carOwner: car.dealer_id || 'autostack',
-        dealerId: car.dealer_id || 'autostack',
+        carOwner: car.dealer_name || 'autostack',
+        dealerId: car.dealer_name || 'autostack',
         preferredDate: new Date(testDriveDate).toISOString(),
       });
       setSubmitSuccess(true);
