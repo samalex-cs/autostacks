@@ -528,7 +528,7 @@ export default function CarDetailPage() {
     try {
       await postInterest({
         carId: car.uid,
-        carOwner: car.dealer_id || 'autostack',
+        carOwner: car.dealer_name || 'autostack',
       });
       setSubmitSuccess(true);
       setTimeout(() => {
